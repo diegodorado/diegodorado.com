@@ -1,79 +1,25 @@
-//const socket = new WebSocket('ws://localhost:8080/')
-const socket = new WebSocket('wss://bin-go.apps.diegodorado.com/')
+import * as Ably from 'ably';
 
-const connect = new Promise<void>((resolve, reject) => {
-  socket.onerror = () => reject()
-  socket.onopen = () => resolve()
-})
-
-type Subscriber = {
-  topic: string
-  callback: (data: object) => void
-}
-const subscribers: Subscriber[] = []
-
-const send = (
-  type: 'pub' | 'sub' | 'unsub',
-  topic: string,
-  content?: object
-) => {
-  socket.send(
-    JSON.stringify({
-      type,
-      topic,
-      content: content !== undefined ? JSON.stringify(content) : undefined,
-    })
-  )
-}
+const API_KEY = "Cw1Osw.n7MgNQ:VsOSP5o5Y-VAbC1t-Ub7nY_AhYS8rv7g9cSJwGswmKw"
+const client2 = new Ably.Realtime(API_KEY);
+const channel = client2.channels.get("bingo");
 
 const pub = (topic: string, content: object) => {
-  const dispatch = async () => {
-    await connect
-    console.log('pub', topic, content)
-    send('pub', topic, content)
-  }
-  dispatch()
+  channel.publish(topic, content)
+  console.log('pub', topic, content)
 }
 
-const sub = (topic: string, callback: Subscriber['callback']) => {
-  subscribers.push({ topic, callback })
-
-  const dispatch = async () => {
-    await connect
-    console.log('sub', topic)
-    send('sub', topic)
-  }
-  dispatch()
+const sub = (topic: string, callback: (data: object) => void) => {
+  channel.subscribe(topic, (d) => {
+    console.log("GOT MSG", topic, d)
+    callback(d.data)
+  })
+  console.log('sub', topic)
 }
 
 const unsub = (topic: string) => {
-  const dispatch = async () => {
-    await connect
-    console.log('unsub', topic)
-    send('unsub', topic)
-  }
-  const index = subscribers.findIndex((s) => s.topic === topic)
-  if (index > -1) {
-    dispatch()
-    subscribers.splice(index, 1)
-  }
-}
-
-socket.onmessage = function (e) {
-  const data = JSON.parse(e.data)
-
-  if (data.type === 'pub') {
-    const content = JSON.parse(data.content)
-    subscribers.forEach((s) => {
-      if (s.topic === data.topic) {
-        s.callback(content)
-      }
-    })
-  }
-}
-
-socket.onclose = function () {
-  console.log('closed')
+  channel.unsubscribe(topic)
+  console.log('unsub', topic)
 }
 
 const client = {

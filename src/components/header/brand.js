@@ -1,61 +1,52 @@
 import React from "react"
 import { Link } from "gatsby"
-import PropTypes from 'prop-types'
 
-const swaps = [['i','1'],['e','3'],['o','0'],['g','6'],['a','4']]
+const swaps = [['i', '1'], ['e', '3'], ['o', '0'], ['g', '6'], ['a', '4']]
 //todo: improve performance
 class Brand extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props)
-    this.state = {title: props.title, swaps: props.swaps || swaps}
+    this.state = { title: props.title, swaps: props.swaps || swaps }
   }
 
-  getDiff(){
+  getDiff() {
     let diff = 0
-    for(let i=0;i<this.props.title.length;i++){
-      diff += (this.state.title[i]===this.props.title[i]) ? 0 : 1
+    for (let i = 0; i < this.props.title.length; i++) {
+      diff += (this.state.title[i] === this.props.title[i]) ? 0 : 1
     }
     return diff
   }
 
   timer() {
     const swaps = this.state.swaps
-    let i = Math.floor(Math.random()*swaps.length)
+    let i = Math.floor(Math.random() * swaps.length)
     let from = Math.round(Math.random())
-    if(this.getDiff()>3) from = 1
+    if (this.getDiff() > 3) from = 1
     let to = from ? 0 : 1
-    if(Math.random()<0.5){
+    if (Math.random() < 0.5) {
       this.setState({
-        title: this.state.title.replace(swaps[i][from],swaps[i][to])
+        title: this.state.title.replace(swaps[i][from], swaps[i][to])
       })
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.intervalId = setInterval(this.timer.bind(this), 100);
   }
 
-  componentWillUnmount(){
+  componentWillUnmount() {
     clearInterval(this.intervalId);
   }
 
   render() {
     return (
-        <h1>
-          <Link to={`/`}>{this.state.title}</Link>
-        </h1>
+      <h1>
+        <Link to={`/`}>{this.state.title}</Link>
+      </h1>
     )
   }
 
 }
-
-
-
-Brand.propTypes = {
-  title: PropTypes.string.isRequired,
-  swaps: PropTypes.array,
-};
-
 
 export default Brand

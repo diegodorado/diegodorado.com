@@ -1,13 +1,11 @@
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from "react"
-import {FaYoutube,FaSpotify, FaGithub, FaInstagram, FaFacebook} from 'react-icons/fa'
+import { FaYoutube, FaSpotify, FaGithub, FaInstagram } from 'react-icons/fa'
 
 const SocialLinks = () => (
   <>
     <a target="_blank" rel="noopener noreferrer" href={`https://youtube.com/diegodorado`}><FaYoutube /></a>
     <a target="_blank" rel="noopener noreferrer" href={`https://open.spotify.com/artist/6TiMRef3nqRA74LKQ810t8`}><FaSpotify /></a>
     <a target="_blank" rel="noopener noreferrer" href={`https://instagram.com/diegdorado/`}><FaInstagram /></a>
-    <a target="_blank" rel="noopener noreferrer" href={`http://facebook.com/diegdorado`}><FaFacebook /></a>
     <a target="_blank" rel="noopener noreferrer" href={`https://github.com/diegodorado`}><FaGithub /></a>
   </>
 )

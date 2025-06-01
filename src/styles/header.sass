@@ -5,14 +5,14 @@ header
   display: table
   width: 100%
   padding: 50px 0
-  h1,nav
+  h1,.nav
     display: block
     vertical-align: middle
     margin: 0
     padding: 0
 
   +breakpoint(xs)
-    h1,nav
+    h1,.nav
       display: table-cell
 
   h1
@@ -35,7 +35,7 @@ header
           &:nth-child(#{$i})
             animation-delay: math.div($i,8)+s
 
-  nav
+  .nav
     font-size: 1em
     text-align: right
     a

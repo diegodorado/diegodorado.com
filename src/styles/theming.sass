@@ -1,24 +1,21 @@
-//:root
-//  color-scheme: light dark
-
 body
   background-color: $black
   &, a, a:visited
     color: $white
+  main
+    a, a:visited
+      color: $primary
 
   .work-post hr
     background-image: linear-gradient(to right, $black 40%, $white  0%)
 
   header
-    a.active
-      color: lighten($white,1.3)
-      text-shadow: 2px 2px 4px #666,-2px -2px 6px #666
-    nav a:first-child
-      span
-        transform: rotateY(0deg)
-      &:hover span
-        transform: rotateY(180deg)
-
+    a:hover
+      color: $primary
+    nav.main 
+      a.active
+        &, i
+          color: $primary
 
   .music article .bandcamp iframe
-    background-color: black
+    background-color: $black

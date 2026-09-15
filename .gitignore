@@ -3,6 +3,9 @@ node_modules/
 public
 src/gatsby-types.d.ts
 
+# Local AI runtime state
+.atl/
+
 # yarn zero installs
 .pnp.*
 .yarn/*

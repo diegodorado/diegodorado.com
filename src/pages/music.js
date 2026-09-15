@@ -18,7 +18,7 @@ const links = Object.entries(urls).map(([k, v]) => (
   </a>
 ))
 
-const colors = 'bgcol=333333/linkcol=ffffff'
+const colors = 'bgcol=000000/linkcol=ff00ff'
 
 // execute from https://diegodorado.bandcamp.com/
 // Array.from(document.getElementsByClassName('music-grid')[0].getElementsByTagName('li')).map(e=>parseInt(e.dataset.itemId.split('-')[1]))

@@ -12,7 +12,7 @@ i18n
   .init({
     resources: { en, es },
     fallbackLng: "en",
-    whitelist: ["en", "es"],
+    supportedLngs: ["en", "es"],
     debug: process.env.NODE_ENV === "development",
     saveMissing: process.env.NODE_ENV === "development",
     updateMissing: process.env.NODE_ENV === "development",

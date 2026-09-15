@@ -27,7 +27,7 @@ const init = async () => {
   try {
     await StartAudioContext(Tone.context)
     //chain a compressor
-    const comp = new Tone.Compressor(-30, 3).toMaster()
+    const comp = new Tone.Compressor(-30, 3).toDestination()
     const urls = samples.reduce(
       (o, n) => Object.assign(o, { [n]: `/live-emojing/samples/${n}.wav` }),
       {}

@@ -54,7 +54,7 @@
     "sass": "^1.70.0",
     "simpleddp": "^2.0.0",
     "startaudiocontext": "^1.2.1",
-    "tone": "^14.7.77",
+    "tone": "^15.1.22",
     "twemoji-parser": "14.0.0"
   },
   "devDependencies": {

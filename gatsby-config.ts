@@ -14,7 +14,20 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        sassOptions: {
+          // The plugin's schema injects indentedSyntax:false into any explicit
+          // sassOptions, which breaks sass-loader's per-file auto-detection.
+          // This project is 100% indented (.sass), so force it explicitly.
+          indentedSyntax: true,
+          // gatsby-plugin-sass 6.x calls the legacy render() API; Dart Sass
+          // drops it in 2.0. Silence the warning until the plugin is replaced.
+          silenceDeprecations: ['legacy-js-api'],
+        },
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',

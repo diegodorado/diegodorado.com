@@ -1,0 +1,1014 @@
+{
+  "meta": {
+    "capturedAt": "2026-09-16T21:16:00.408Z",
+    "commit": "529cf73ee5bdd368a266975a1a66d44167b04756",
+    "gatsbyVersion": "^5.16.1"
+  },
+  "routes": [
+    {
+      "path": "_gatsby/slices/_gatsby-scripts-1.html",
+      "text": "",
+      "images": []
+    },
+    {
+      "path": "404.html",
+      "text": "diego dorado - 404: Not Found diego dorado es / en Work | Music | L a b s | Bio Not Found You just hit a route that doesn't exist... the sadness. Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "404/index.html",
+      "text": "diego dorado - 404: Not Found diego dorado es / en Work | Music | L a b s | Bio Not Found You just hit a route that doesn't exist... the sadness. Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "algo-rimo/index.html",
+      "text": "Algo Rimo",
+      "images": []
+    },
+    {
+      "path": "app/index.html",
+      "text": "diego dorado es / en Work | Music | L a b s | Bio Sorry, nothing here. Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "blue-mountain/index.html",
+      "text": "Blue Mountain VR Teaser Project Contact BLUE MOUNTAIN WATCH THE TEASER . PROJECT Blue Mountain is a musical and pictorial journey of beautiful soundscapes and fantastic nature that leads to a peaceful contemplation. An exploratory audiovisual landscape approached through virtual reality technology. Each element that conform the virtual environment has a certain pictorial-musical representation. Depending on which path the user takes, the sound environment is modiﬁed as it moves through space. . IMAGE DESIGN The image design of Blue Mountain is based on the Low Poly aesthetics. You can ﬁnd in space from abstract ﬁgures to organic ﬁgures that are related to forms of nature, always using geometry and ﬂat ﬁgures as a starting point. The use of fragmentation as a structural concept is the key to generate the visual aspect. The sky and the other objects that compose the space are designed under this logic. .SOUND DESIGN Electroacoustic and digital sonorities, the use of processed everyday objects are the elements that conﬁgure the sound structure of the map. The central sense by which the landscape sounds is its apparent non-referentiality, the idea that the user does not know to which source each one corresponds. Precisely, sound aesthetics aim to lose that trace of the mundane referential and to meddle fully in a universe that is disconnected from our daily environment. © Copyright 2017 Blue Mountain - All Rights Reserved",
+      "images": [
+        {
+          "src": "assets/images/screen-shot-2015-12-02-at-2.34.26-copy-1878x1800.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "assets/images/screen-shot-2015-12-02-at-2.37.20-copy-1800x1800.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "assets/images/screen-shot-2015-12-02-at-2.38.13-2-1800x1800.png",
+          "srcset": false,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "en/bio/cv/index.html",
+      "text": "diego dorado - bio diego dorado es / en Work | Music | L a b s | Bio Diego Dorado is a live coder, programmer and electronic artist based in Agentina. He is passionate about research projects that combine technological innovation with artistic expressions. Experiencia Laboral Asesor Pedagógico Diseño de material pedagógico sobre tecnologías emergentes como robótica, programación, impresión 3D y producción audiovisual y musical. Educar S.E. / educ.ar / 2016 - actualidad Productor de Eventos Diseño y producción de hackatones de tecnología para chicos de 12 a 18 años de edad. Educar S.E. / educ.ar / 2016 - actualidad Compositor y Diseñador Sonoro Música adaptativa para videojuegos, diseño de SFX e implementación. Machinga Games / machingagames.com / 2015 - 2017 Programador de Videojuegos Programación de Inteligencia Artificial, UI, optimización para mobile y extensión del editor de Unity. Machinga Games / machingagames.com / 2013 - 2015 Consultor en Sistemas Análisis de viabilidad de proyectos y asesoramiento en sistemas de gestión agropecuaria. Agroapex / agroapex.com.ar / 2013 - actualidad Desarrollador de Videojuegos Producción y programación de videojuegos. Integración de publicidades. Freelance / 2013 - 2015 Full Stack Developer Desarrollo de aplicaciones web y gestión comercial. Cooperativa Hormigón / 2006 - 2012 Programador de Aplicaciones Office Automatización de procesos e inteligencia de datos. Agroapex / agroapex.com.ar / 2004 - 2013 Obras y Desarrollos Live-Emojing Técnica de live coding desarrollada para hacer partícipe a la audiencia de la performance enviando emojis desde sus teléfonos. +info Human Aided Music Dúo de percusión humano-máquina en donde la máquina aprende del humano. +info Instrumento Óptico Performance escenográfica y audiovisual acerca del rescate de las lenguas y la relación con la naturaleza a través de un proceso de desintoxificación material y espiritual. +info CV2612 Módulo Eurorack basado en el clásico chip de síntesis FM usado en la Sega Genesis. +info Live Coding Una forma de arte performático y técnicas creativas basados en el uso de programación interactiva improvisada en vivo. +info Ceiborg Desarrollo de vestuarios con tecnología. +info Blue Mountain Viaje musical y pictórico en realidad virtual de paisajes sonoros y naturaleza fantástica que conduce a una contemplación pacífica. +info L.H.C.V.M.M. Large Hadron Collider Visual Music Machine es un trabajo de música visual en formato fulldome basado en datos generados por el mayor acelerador de partículas del mundo ubicado en Suiza. +info Opensemble Ensamble open source de música algorítmica formado por programadores, artistas y científicos. +info Docencia Taller de Impresion 3D / Educar S.E. / 2019 Desarrollo de Videojuegos / Clubes de Ciencia Colombia / 2019 Realidad Virtual para chicos / Centro Cultural de la Ciencia / 2017 Música para Videojuegos / Estudio Urbano / 2015 - 2016 Álgebra y Análisis Matemático / Freelance / 2010 Piano Inicial/ C. C. La Puerta / 1999 Formación Inteligencia Artificial aplicada al Arte / C.C. Matienzo / 2019 Música Expandida / UNSAM / 2018 Aplicaciones Matemáticas a la Música / C.L.F.I / 2016 Ingeniería en Electrónica / UBA-UTN / 2012-2015 Composición y Armonía Funcional / Diego Schissi / 2002-2003 Sintetizadores Modulares / Tercer Brazo / 2014-2015 Musica y Audio para VideoJuegos / UTN-VENTEN / 2015 Tecnicatura en Cerámica / Instituto Condorhuasi / 2012 - 2014 Programación en Java / Fundiación Proydesa / 2010 Excel Avanzado / Executrain / 2005 Piano / C.C. la Puerta / 1991-2000 Reconocimientos Concurso de Arte y Tecnología 2019 Seleccionado por el Fondo Nacional de las Artes para realizar una performance audiovisual en el Centro Cultural Kirchner. Residencias de Arte-Ciencia SM2 Seleccionado por el Centro de Investigación en Arte-Ciencia de la UNSAM para hacer un desarrollo de obra sobre inteligencia artificial. Club de Ciencia: Realidad Virtual Seleccionado por Clubes de Ciencia Colombia para dar un taller sobre desarrollo de videojuegos a chicos de 15 a 18 años. International Conference on Live Coding Seleccionado por InSonora para asistir a la conferencia internacional sobre live coding 2019 Idiomas Francés / Competencia Bilingüe Inglés / Competencia Profesional Tecnologías Unity, Logic Pro, Wwise, Fmod, C, C++, C#, ruby, python, html5, sass, es6, React, MaxMSP, pd, Ableton Live, Resolume, openframeworks, linux, git, Arduino, laravel, processing, tidalcycles, fritzing diegodorado.com +54 911 3758 3589 diegodorado@gmail.com argentino, 37 años Download: pdf Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/bio/index.html",
+      "text": "diego dorado - bio diego dorado es / en Work | Music | L a b s | Bio Diego Dorado is a live coder, programmer and electronic artist based in Agentina. He is passionate about research projects that combine technological innovation with artistic expressions. He has worked as an educator, sound designer, composer, video games and web developer. He has participated in various works of electronic art coding on microcontrollers, videogames, signal processing, audiovisuals, sound data and interactive webs; as well as for different formats: virtual reality, augmented reality, fulldome, mapping, audiovisual performance, sound installations and e-textiles. Curriculum Vitae: online | pdf Random pics, by Nicolás Croce . Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/4740eaaa4022116944a53263d559c8a0/d7fb4/profile.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/c2d8fd2ec39c0cff56edf5226cfea85f/77fa5/47685470_753595378336080_6886362863745630208_n.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/de99bd3425e11e5f084f20e3b3eb3d6a/5267c/48250887_753591561669795_3625914328764383232_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/357ebe0a3a1ecd3af6a0b3900d5d0af3/5267c/27797961_553897678305852_3010499763930184685_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b83c36515aceb5e6729e045b3a924e6b/fb26c/27907717_553897694972517_8329019581194399928_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/bd1ee4c0f9e37706b2231516e3b888e6/5267c/48077905_753591835003101_2482705214092607488_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/30a0c12e28b0e1544129831c2816c871/5267c/47686400_753592321669719_654390339729096704_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/fa8cb289e0380da0437143d38b2a7cec/5267c/48052517_753592308336387_1687438027204329472_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/d07bc909baf74a92ef22618b933cd37d/5267c/47580013_753594241669527_6488902492774989824_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2764dbcb40b08903f61c0eb8978afc9b/5267c/47685341_753594321669519_2418833316619747328_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/23e9f5d9cb1c25e34985019894a0bc99/5267c/DIEGO-14.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5199ecef8d9217eb223ea9fa93890986/5267c/DIEGO-17.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f07d67ee7a5b57e389d9e3887836a1c9/5267c/DIEGO-23.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/96cfdb2261f662e3756c7b4364d13910/5267c/DIEGO-16.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4835cd30329c906f3bba7038396ac63c/5267c/DIEGO-18.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4c907d75dbe6580d8d7696bc9c327bc9/5267c/DIEGO-12.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/43f733d2cfe0e6ad11c30459a0b5f422/5267c/DIEGO-6.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/30463ace810e85568dd4654c9b681c3a/5267c/DIEGO-9.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/72ff8e4df9b412acd7cbdc72efd7b6e3/5267c/DIEGO-20.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/labs/ada/index.html",
+      "text": "diego dorado - ADA elementary cellular automaton diego dorado es / en Work | Music | L a b s | Bio A.D.A. weaving algorithm. A.D.A. is a robotic work that autonomously weaves neo-representations of the chakana. The algorithm that A.D.A weaves is an elementary elementary cellular automaton where the rule to determine the state of a cell in the next generation depends only on its current state and its two immediate neighbors. We start from a random state, and then cycle through a selection of rules every 24 rows. Those rules are #18, #22, #26, #30, #45, #54, #60, #73, #82, #90, #106, #106, #109, #110, #122, #126, #129, #146, #150, #154, #195 , according to Stephen Wolfram. In order to keep weaving doable, we may swap out some cell if necessary. Transformations of rule #18 is being applied. Download Punchcard Download Preview Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/labs/index.html",
+      "text": "diego dorado - labs diego dorado es / en Work | Music | L a b s | Bio Arbitrary web experiments collection. A.D.A. weaves A.D.A. weaving algorithm simulator. Bingo Musical A present to my mother during COVID-19 lock down. CV2612 Editor CV2612 patch editor and midi mapper. MAP-H Brain of Bernardo, a funky drummer robot. Emoji Playground Music with emojis, alone or with others. Algo Rimo Random sonnets by permutations of verses. FM TRIBE Synth/drum machine/thingie with fm sounds developed by munshkr. Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/5bfe2d95b403e25633fe7aa6178b7c91/5f035/ada.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/6c41b303231b27bf1b6c387056b3931d/5f035/bingo.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5c8269f535d0925d25923993b8da6204/5f035/cv2612.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/8eb0bcf21a3ba74aa8a5b3fc0a7a45bd/1b894/maph.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/e9b04ee8bec0adc1006f6789bd8a4e6e/1b894/live-emojing.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/d0795dfe84c388f3c5f32062bb13bf88/5f035/algo-rimo.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/bade5f7dc7b95793a6d5546685bae947/5f035/fm-tribe.png",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/labs/live-emojing-midi/index.html",
+      "text": "diego dorado - live emojing diego dorado es / en Work | Music | L a b s | Bio Make music with emojis! 😆 😭 Cannot get channels list . Want to play on your own? play alone Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/labs/live-emojing/index.html",
+      "text": "diego dorado - live emojing diego dorado es / en Work | Music | L a b s | Bio Make music with emojis! 😆 😭 Cannot get channels list . Want to play on your own? play alone Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/le/index.html",
+      "text": "diego dorado es / en Work | Music | L a b s | Bio Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/live-emojing/index.html",
+      "text": "96 Live-Emojing ¡Hello! I'm Diego Dorado, programmer and electronic artist from Argentina. I've been selected to participate in the International Live Coding Conference , and I will be touring in Madrid, Barcelona, Rome and Berlin from January 15 to February 15 . I would like to make a proposal to you: A show of music with emojis ! How is that? It is an audiovisual performance that is live coded . The code is projected so that it is seen how it is manipulated to generate music and visuals.💻🎼 People can participate (even if they do not code) by sending emojis from their phone 📱😎😱🤖. These emojis get to the code 📟👾and modify the music we code alltogether 🎹🎷🎉😂🎊 The arrengements are simple . I take my notebook with me💻 and only need projector, sound and internet. 📺🔊📶 A LITTLE BIT ABOUT ME I'm Diego Dorado, programmer and electronic artist. I am passionate about research projects that combine technological innovation with artistic expressions. I have worked as a Web Developer, Desktop Developer, Video Game Developer, Systems Consultant, Composer, Sound Designer and as an Educator. As an artist I have participated in various works of electronic art by coding on microcontrollers, videogames, signal processing, audiovisuals, live programming, sound data and interactive webs; as well as for different formats: virtual reality, augmented reality, fulldome, mapping, audiovisual performance, sound installations and e-textiles. Here you can see some works : LHCVMM | Blue Mountain | Ceiborg | Instrumento Óptico | LiveCoding | Musica Asistida por Humano | Live-Emojing And on my Instagram @diegdorado you will see more projects. Are you interested in the proposal?? Write me and we coordinate a call to organize it! 📨 diegodorado@gmail.com 📱+54 911 3758 3589 @diegdorado See you soon! Diego 😁",
+      "images": [
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/6bf47eba-3072-4ae9-9273-bfcfe634ca5b.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/b2ddc6b0-eccb-4a12-81c4-4c96dbcbe7d7.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/a404f8cd-4d89-490a-88e7-b9c89ec77854.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/0faee675-b609-4173-b44b-c115b9475da9.jpg",
+          "srcset": false,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "en/music/index.html",
+      "text": "diego dorado - music diego dorado es / en Work | Music | L a b s | Bio Listen to the albums produced by Diego Dorado here or on bandcamp , spotify , apple , amazon , youtube o deezer . Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/work/index.html",
+      "text": "diego dorado - work diego dorado es / en Work | Music | L a b s | Bio Diego Dorado is a live coder, programmer and electronic artist based in Argentina. He is passionate about research projects that combine technological innovation with artistic expressions. Recent works : A.D.A. Robotic work that autonomously weaves neo-representations of the Andean cross. Visuals A set of interactive software, originally made as visuals for different live performances. Live Emojing Livecoding technique to allow the audience to send emoji patterns through their phones. Human Aided Music A human-machine musical dialogue where the leader is not clearly distinguishable. Intrumento Óptico Performance about the recovery of our languages through a process of detoxification. CV-2612 An eurorack module based on the classic FM chip used by Sega Genesis Live Coding Performatic art technique based upon the use of improvised interactive programming. Ceiborg Creative laboratory linking textile art and costumes with science and technology. Blue Mountain Musical and pictorial journey of beautiful soundscapes and fantastic nature. L.H.C.V.M.M. Visual Music project based on data generated by the Large Hadron Collider. Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/74fa83fcbd04e09b44d158eb8bba7bfc/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/7bce586724f5086d8c8f065757ea4da2/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2acd17e2b25a8dc98a4e669b905c5928/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b6a2a5a3a1a786fb87e2d0d809dfb7d4/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5ca5520f990039b372981b2379f6621e/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/1915b803311fb4363b05e4159702c271/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f07d67ee7a5b57e389d9e3887836a1c9/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/eedf2d387b4b2e27e8e0a6a3d89539c3/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2730d1495d47ff7fc78edbcfd70f4883/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4a91408b1fd010aeb5a0919cfd8b5153/5e011/cover.webp",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/ada/index.html",
+      "text": "diego dorado - A.D.A. diego dorado es / en Work | Music | L a b s | Bio A.D.A. ... all works => A.D.A. is a robotic work, made in collaboration with ceiborg , that autonomously weaves neo-representations of the chakana, synthesis of the Andean cosmovision. The name refers to an “Algorithmic Designs Self-Weaving-Machine” (“Autotejedora de Diseños Algorítmicos” in Spanish) and celebrates the technopoetic gaze and genius of Ada Lovelace, connecting the first industrial looms with computer science. In the center of a quiet, empty-walled room, a strange machine displays extensive weave. An unintrusive percussion is also heard, which seems to come from the same place, repeating an almost ritual sequence. Every so often and autonomously, the carriage moves from one side to the other, spreading the weave. And as it does, the percussive sequence changes. — Might they be related? The pattern of the fabric is somewhat abstract, but reminiscences of Andean symbols can be perceived. And while the cadence of the percussion suggests repetition, the weave shows that what is constant is change. The pace of work is so slow that rigor of mass production does not fit the scene. — But, what is this machine about? It weaves without haste, giving the impression of doing conscious work, displaying a drawing that, more than a garment, looks like a parchment. Like a solitary intelligence whose mission is to preserve a primitive message. Let’s think for a moment about the spindle: an ancient tool to generate twist yarns from vegetable and animal fibers, which later resulted in more complex garments thanks to the loom. The spindle and the loom, two of the most revolutionary inventions of the Neolithic Age, show that technology was always present in the craftsman’s work. In the history of the original peoples of Argentina, various techniques were used to make fabrics. From north to south, each town interpreted and shaped their vision of the world with materials and techniques typical of the place. Despite geographic and cultural differences, we find common meanings in their various representations. The chakana (or Andean cross) is a recurring symbol that means “ladder to the highest” and constitutes the synthesis of the Andean cosmovision. When these peoples wanted to capture their worldview, they represented their symbols with the technology at their disposal. If they hadn’t found the spindle yet, we might have found the chakana in cave paintings. But since they were skilled with the loom, their message reaches us through their fabrics. How could we today, with our current technology, continue their legacy? One up, one down, color change, I go back in the opposite direction … From a simple braid to the most intricate weft, the art of weaving obeys a set of neat and defined rules. This knowledge, these precise instructions, were transmitted from generation to generation by these peoples who, perhaps without knowing it, left samples of algorithmic art in their early tissues. In this unique intersection between looms and algorithms, and in the days of punched card Jacquard looms, the fanciful idea arises of building a loom applied to numbers, that is, a computer. Isn’t it amazing that all the computer technology we know today is somehow tied to traditional looms? Ada Lovelace was a mathematician, writer and, according to her, scientist, poet and analyst. In her notes on Charles Babbage’s Analytical Engine, she wrote the first algorithm intended to be processed by a machine, thus becoming the first programmer. In these same notes, she predicted that this machine could act on other things besides number, if objects were found whose mutual fundamental relationships could be expressed by those of the abstract science of operations . Would it be possible to use this type of artifice to create neo-representations of the chakana? Can we abstract the formal characteristics of the chakana and generate reinterpretations of the symbol? Ada encourages us to suspect so, who a century before the invention of the first computer, and referring to a machine that was never built, left among technical notes poems like this one: “The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves.” For more information about the algorithm A.D.A use to weave, follow this link ... all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/f92cad5315d87673b37b38b1bb90bb19/a2510/artifact.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f166acd450456d8f36f041fc441ea22a/a2510/huso.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2acfbfcc2d69cd1427f9ba422eff21d7/b8284/chakana.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/9f816852094d6f85347b2b18b8b5ebb7/a2510/punchcard.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/25d718e5a7d6a5697749122134ddd9b8/a2510/ada.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/ec0e04bc2716350b95821653a003e636/c8c67/diagrams.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/blue-mountain/index.html",
+      "text": "diego dorado - Blue Mountain diego dorado es / en Work | Music | L a b s | Bio Blue Mountain <= all works => Blue Mountain is a musical and pictorial journey of beautiful soundscapes and fantastic nature that leads to a peaceful contemplation. An exploratory audiovisual landscape approached through virtual reality technology. Each element that conform the virtual environment has a certain pictorial-musical representation. Depending on which path the user takes, the sound environment is modiﬁed as it moves through space. Visit the old project site Watch the trailer <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/ee7b5733635cfac8fbb3ab3cc7cd5370/00d43/b.png",
+          "srcset": true,
+          "placeholder": false
+        },
+        {
+          "src": "/static/d9c46af5c9ac5962f847b53c791aa101/00d43/f.png",
+          "srcset": true,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "en/works/ceiborg/index.html",
+      "text": "diego dorado - Ceiborg diego dorado es / en Work | Music | L a b s | Bio Ceiborg <= all works => Ceiborg is a creative laboratory linking textile art and costumes with science and technology. It develops its techno-textiles through various tools and techniques: electronics and programming to create electro-textiles 3D modeling and printing to produce printed textiles cultivation of fungi and bacteria to generate bio-textiles Ceiborg is the conjunction of the words ceibo (Argentine national flower) and cyborg (cyber organism). ceibo + cyborg = ceiborg Ceiborg was founded by Eliana Guzmán in 2016. Eliana is a Clothing and Textile Designer (UADE), Costume Designer and Techno-Textile Artist. More information at [ceiborg.com] ( https://ceiborg.com/ ) <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/37e568378c629f33419aecc8aac9987f/78c04/uv.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/45cd3552311d1f17f8503194469caf95/61008/psique.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/e92cbd24a8fe2d25291d03a9c9da93e3/acb04/ceiboard.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/ee886affd8784c01f5e7b66afff438f2/747d8/teatro.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/de8a952d894ab2aaf5b9fb51eb8c9d4f/acb04/eva.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/cv2612/index.html",
+      "text": "diego dorado - CV-2612 diego dorado es / en Work | Music | L a b s | Bio CV-2612 <= all works => CV2612 is an eurorack module based on the classic FM chip used by Sega Genesis: the great YM2612. It has MIDI i/o, and yes! it has control voltage inputs ! It is on its final development stage and we hope to see it on the market soon. MIDI Specs CV2612 has two 3.5mm TRS MIDI connectors: MIDI In and MIDI Out. MIDI Out can act as a software MIDI Thru if THRU_ENABLE is 1 . Note Messages Note On/Off messages are received on channels 1 to 7 If received on channel 1, they treated differently based on Poly Mode configuration If Poly Mode is set to Mono , a note will use all six voices If Poly Mode is set to Poly , a note will use a single voice with up to 6 voices of polyphony, first in/first out. Otherwise, notes on channels 2-7 goes to voices 1-6 respectively. Pitch Bend Messages Pitch Bend messages are received on channels 1 to 7 If received on channel 1, they affects all six voices Otherwise, pitch bends on channels 2-7 affects voices 1-6 respectively. Received CC/NRPN Messages CC messages received are on channels 1 to 16 Every CV2612 voice related parameter is mapped to a CC message by default according to the following table, but can be configured through the CV2612 Online Tool MIDI DIN runs at 31250 bits per second. That’s roughly 3000 bytes per second, which in a MIDI stream transferring CC data (3 bytes each) as quickly as possible, works out to about 1000 CC changes per second. play-mode vel-sensitivity cc-mode rgb-intensity As a general rule, a parameter on MIDI channel 1 apllies to all six voices, and on Midi channel 2 to 7, applies to voices 1 to six respectively. Global parameters do not take into account the MIDI channel used. NRPN MSB NRPN LSB CC Channel Code Parameter Global Parameters 01 0 1 - LF0_F Low Frequency Oscillator Frequency 02 0 2 - LF0_E Low Frequency Oscillator Enable 03 0 3 - THRU_E Enable Software MIDI Thru 04 0 4 - TX_CC Transmit CC 05 0 5 - POLY_M Poly Mode (Mono/Poly) Channel Parameters 20 0 20 1-7 AL Operators Algorithm 21 0 21 1-7 FB Feedback of Operator 1 22 0 22 1-7 FMS Frequency Modulation Sensitivity 23 0 23 1-7 AMS Amplitude Modulation Sensitivity 24 0 24 1-7 ST Stereo Configuration Operator 1 Parameters 30 0 30 1-7 AR Attack Rate 31 0 31 1-7 D1 Decay 1 Rate 32 0 32 1-7 SL Sustain Level 33 0 33 1-7 D2 Decay 2 Rate 34 0 34 1-7 RR Release Rate 35 0 35 1-7 TL Total Level 36 0 36 1-7 MUL Frequency Multiplier 37 0 37 1-7 DET Detune 38 0 38 1-7 RS Rate Scaling 39 0 39 1-7 AM Amplitude Modulation Enable Operator 2 … 40 1 40 1-7 AR Attack Rate … Operator 3 … 50 2 50 1-7 AR Attack Rate … Operator 4 … 60 3 60 1-7 AR Attack Rate … * Commands * 70 0 - - - Set a patch 71 1 - - - Select a patch Transmitted CC Messages A few CC messages are transmitted on channels 1 if TX_CC is 1 . CC Channel Code Parameter 1 1 CV_MSB Control Voltage MSB 2 1 CV_LSB Control Voltage LSB 3 1 GATE Gate - - 10 1 X_MSB X MSB 11 1 X_LSB X LSB 12 1 Y_MSB Y MSB 13 1 Y_LSB Y LSB 14 1 Z_MSB Z MSB 15 1 Z_LSB Z LSB SysEx Messages Other configuration parameters though, can only be changed with sysEx messages through the CV2612 Online Tool As a brief description, the following sysex messages are received: ID_REQUEST PARAM_LOAD MAPPING_DUMP_REQUEST MAPPING_LOAD VOICE_DUMP_REQUEST VOICE_LOAD PATCH_DUMP_REQUEST PATCH_LOAD PATCHES_DUMP_REQUEST PATCHES_LOAD And the following sysex messages are transmitted: ID_REPLY MAPPING_DUMP_REPLY VOICE_DUMP_REPLY PATCH_DUMP_REPLY PATCHES_DUMP_REPLY Being ID: Identity of the device PARAM: a single parameter MAPPING: The CC to parameters mapping VOICE: a single voice in the chip, a.k.a. channel PATCH: a patch is comprised of 6 voices, lfo and ploymode settings PATCHES: a set of 4 patches Happy FMing! <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/25fcec3b576a249d96876b73e7525ceb/a2510/banana.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/human-aided-music/index.html",
+      "text": "diego dorado - Human Aided Music diego dorado es / en Work | Music | L a b s | Bio Human Aided Music <= all works => Human Aided Music is a Human-Machine percussion duo where the machine learns from the human. It proposes a fluid dialogue between both, to the point where no one distinguishes who leads the music. It is a robotic sculpture, called Bernard, equipped with an artificial intelligence program capable of musically accompanying a human interpreter. The work speaks about the creation of artificial life from an artistic perspective, wondering whether a funky-drummer-machine that can hold a musical conversation with a person could be credible spectacle. Credible not in the sense of deception, but in the sense of recognizing the human trace in the machine. Would the spectator come to feel that in the machine, although in a rudimentary way, there is life? Even with a specific funky-drumming constraint, it poses delicate questions. What is the purpose of making a machine play the drums if we already have good drummers? What is the purpose of artificial life? Why Golems? Why Frankenstein’s creatures? The creation of life always associated with horror : will we create monsters? will the machines replace us? But associated also with the greatest desires of the human being: the search for immortality and the breaking of all limits. When you think of the Golem or Frankenstein, would you say they are human? Would you say that they are not? We are still talking about funky-drumming … but if we manage to transfer the skills of a drummer to an artificial intelligence program, what could we not, potentially? Presentations Presentation at the San Martín Cultural Center, within Noviembre Electrónico 2019 . The work was selected for the SM2 art-science residency program. Presentation at the National University of San Martín, in December 2018. The AI side of the project was still in development. But I was anxious to give it a try so here I’m livecoding the machine along with some synths. Aesthetics The aesthetic proposal is to humanize the machine and “machinize” the human with the intention that this crossing will provoke the feeling of approach between them. Elements normally associated with the human are transferred to the machine and vice versa. While the machine strikes acoustic percussive bodies with electromagnetic actuators, the human have digital gear with synthetic sounds. The title also plays with this aesthetic cross: the term computer-aided music has been known for years, in which the human composer uses the machine to solve technical and high precision tasks in order to carry out his work. Here we propose the opposite: it is the machine who “composes”, but needs the assistance of a human to inject emotion into his work. Bernard has a machine-animal-humanoid hybrid aspect and all the signs of the imperfect and unfinishedness : lack of symmetry, fragments of different technologies and materials, and evidence of recent repairs. A unique creature rather than a device. A clear trace of having been sired. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/bbe2985d48ad6ba6daf4c3afaf352e36/a2510/sm2.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/c726a87a6d634053cf6399f0fac0fbbd/a2510/bernardo.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/01064d0faeea55769b7c8ab7c1b72f65/066f9/golem.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/8eee256049785ce17bfb39fdfd2171f7/066f9/deniro.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b6a2a5a3a1a786fb87e2d0d809dfb7d4/a2510/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/7265ce4e5c21c58e13b332b91ceb4e8a/a2510/max.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/i-o/index.html",
+      "text": "diego dorado - Intrumento Óptico diego dorado es / en Work | Music | L a b s | Bio Intrumento Óptico <= all works => I-O is an audiovisual and scenographic performance about the recovery of our languages and the relationship with nature through a process of spiritual and material detoxification. Inclusion and sustainability are at the core of this project that advocates recovering the native languages that have been so neglected over the years as well as fosters a relationship with nature that seems to have been lost in time. Origin The project began in november 2017, when Josefina Barreix launched a solo EP produced with Andrés Marino and published by FUNGI Records . Bandcamp | Spotify | Soundcloud | Itunes The album was composed and produced by Josefina Barreix & Andres Marino, mixed by Pablo Del Fauno Gil & Andrés Marino in Ideo Music Studio , and mastered by Pablo Del Fauno Gil in La Siesta del Fauno Studio-Lab . The album was a success and attracted the attention of many people who wanted to take part on it. That is why it has featuring Flor Wosh (choirs in “Dysecdysis”), Ernesto Romeo (synthesizers in “Incorporo”), Violeta García (violoncello in “Incorporo”), Santiago Colombatto (bowls in “Incorporo”), Abelardo Saravia (choirs in “Incorporo”), Melina Moguilevsky (choirs in “Incorporo”), Guillermina Teves (album cover) and Lea Bon (photography). Even Indie Rock Magazine got interested and wrote an article about it . All this excitement led to the idea of taking the EP to the next level, transforming it into an audiovisual and scenographic performance . Concept Although during the presentation words are expressed vocally both in Spanish and Ranquel (native language spoken by pre-columbian cultures), abstract emotional sounds take the actual spotlight. Words sometimes serve as barriers, obfuscating true purpose and emotion. There are universal sounds capable of overcoming the inevitable distances inherent of dialects and languages. Sound, as a primary language is the first step towards personal detoxification. The opus is comprised of four moments of a mythical story: “Euphoria”, “Dysecdysis”, “Diaphanus” and “Incorporo”. Euphoria Dopamine fills the brain with a feeling of confidence and an exaggerated sense of well-being. The self-exalted individual seeks for internal shelter; isolation and solitude follow. Reality does not satisfy his desires and leads him to deep disappointment and the need to rebel against the established. Dysecdysis Named after a condition which causes failure in reptiles’ outer skin shedding. This process of detoxification can only be overcome by the replacement of the old by the new. Diaphanus Transparent or translucent; allows light to pass through. It means to appear, not in a deceptive way, but to show what is manifestly real, what is perceivable by the senses and has strength of evidence. Incorporo In order for the human being to learn something from nature, other intelligences must exist before nature itself, without a body, volume or consistency. These intelligences belong to the spirit and cannot be perceived by the senses. Aesthetics The voice is a broad instrument that oscillates from recognizable human uses such as tribal screams, whispered poems, ritual choirs and gated vocals towards less familiar digital textures such as granular percussion, background echo and synthesized pads. Melancholic Wurlitzers and increasingly tense cellos harmonize the sound universe while the rhythm is given by multiple lines of synthetic bass, stuttered drums and samples ranging from metal, glass and fire to jungle field recordings. The visual aspect deals with an absence of tone leaving the main voice to be highlighted with a specially handcrafted red cape. An abandoned temple emerges in the vast ocean, suspended in a three-dimensional void. Matter evolves from lonely dust to glowing particles, organically alive and extremely sensitive to sound. Presentations Since its inception, IO was presented in the following venues. 03/18 | Chela Cultural Center´ | Buenos Aires, AR 09/18 | UNTREF´´´´´´´´´´´´´´´´ | Buenos Aires, AR 09/18 | Roseti Cultural Center | Buenos Aires, AR 12/18 | La casa de la pampa´´´ | Buenos Aires, AR 02/19 | La Invisible´´´´´´´´´´ | Montevideo, UR <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/9ba2315c695045d11016d8c974dc3f38/a2510/iolive2.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/0fdf9cb6343f41938fffc92bae67c60b/a2510/iolive4.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/i-o/poem/index.html",
+      "text": "diego dorado - Poem of HUKO diego dorado es / en Work | Music | L a b s | Bio Poem of HUKO <= all works => El Poema de HUKO por Instrumento Optico Prolegómenos En la nada absoluta, libre de imagen, apenas un murmuro profundo, grave y omnidireccional existía. En el centro de la nada latía el huevo primordial, gigante y oscuro. Latía espaciadamente, con la copresencia de aquel arruyo etéreo. Y en cada creciente latido, los primeros indicios de vida consciente propagaban fisuras destellantes. La eclosión fue brutal, y antes de que cayera al suelo el último pedazo del cascarón, Huko estuvo de pie tan fuerte y confuso como un volcán activo. Capaz de lanzar rocas a los cielos; capaz de llorar ríos de sangre ardiente. En sentidas danzas quiso expresarse, polifacética y fragmentadamente, con la torpeza de un recién nacido. Dysecdysis Al advertirse limitado por su propia naturaleza, se arrojó al acto libre y humano de romper con su vida anterior, como una oruga que abraza la muerte para poder volar. Fue una lucha salvaje y decidida, con la inquietante sensación de estar perdiendo algo de sí, al verse a sí mismo rasgar sus propios pellejos. Y como los últimos vestigios de su ser inmaduro aún se hallaban adheridos a su nueva delicada piel, Huko tuvo que escoriarse en un esfuerzo volitivo. Diafano Sobrevino luego, la calma después de la tormenta; o del tormento. Huko sintió el cuerpo exhausto pero el corazón regocijado A fin de evitar un regreso, sus heridas habían de sanar conscientemente, y solo restaba esperar humildemente la alborada. Huko descansó frágil en el remanso de un lago nutrido por el cielo nocturno, y la claridad de la luna atravesaba tenuemente su cuerpo. Incorpóreo Al volver del sueño reparador, por la tibieza del lago Huko no sentía los límites de su cuerpo. La piel, que otrora deslindara el espacio interno del externo, se había evanescido completamente. Huko se incorporó livianamente; desplegándose, reconociéndose. Inspiró profundamente cargándose de energía y se extiendió de brazos y piernas difundiéndola por ellos, extendiéndose sin fin, ramificándose. Inspiró nuevamente y en sus ojos cegados y en su pecho henchido se concentraba todo el resplandor del alba, vibrando en altas frecuencias. Inspiró una tercera vez, y en un éxtasis luminoso, Huko se tornó inmaterial. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/works/i-o/presentation/index.html",
+      "text": "diego dorado - I-O 2 diego dorado es / en Work | Music | L a b s | Bio I-O 2 <= all works => Instrumento Optico Intro IO is an audiovisual and scenographic performance about the recovery of our languages and the relationship with nature through a process of spiritual and material detoxification. Concept The work is presented in Spanish, Ranquel (native language), and sounds that represent emotion. Words sometimes obfuscate their purpose and their real connection with emotion, as they are tied to the singular perception and experiences each subject has. There are universal sounds that overcome the barriers of dialects and languages. Sound as a primary language is a first step towards detoxification. The work is comprised of four moments of a mythical story: “Euphoria”, “Dysecdysis”, “Diaphanus” and “Incorporo”. Euphoria Dopamine fills the brain with a feeling of confidence and exaggerated well-being. The self-exalted one takes refuge in itself, getting isolation and solitude. Reality does not satisfy his desires and leads him to that feeling of deep disappointment and the need to rebel against the established. Dysecdysis A skin disease of a reptile that occurs when the shedding of the dead outer skin fails. This process of detoxification can only be overcome by the replacement of the old by the new. Diaphanus Transparent or translucent; which allows light to pass through. It means to appear, not in a deceptive way, but what is manifestly real, what is present for the senses and has strength of evidence. Incorporo So that the human being can learn something from the nature, other intelligences must exist before nature itself, without body, volume or consistency. They belongs to the spirit and can not be perceived by the senses. https://www.youtube.com/watch?v=_gTlaWTMAgI https://open.spotify.com/album/3TxWEBQPKrpgCBArsjTbwU?si=WQL0w93YSoi948TPJ1BJtw http://diegodorado.github.io/works/i-o/ Credits Josefina Barreix, Andres Marino, Sofia Efron, Clara Aguayo, Celeste Lambert Frutos, Francisca Armando , Franco Verrascina, Diego Dorado Support received by Universidad Tres de Febrero Artes Electronicas (University) La Siesta del Fauno Estudio Laboratorio( lab studio) YAELTEX (Custom MIDI Controllers Makers) Work Technical Details Soft: Audio Ableton Live 9.7 and 10 Custom Max4Live patches Primary VSTs The Finger, by Tim Exile Stutter, by Izotope Aparillo, by Sugar Bytes Keyscape, by Spectrasonics Battery 4, by Native Instruments Kontakt 5, by Native Instruments Cryogen, by Glitchmachines FabFilter Pro R Argotlunar by Michael Ourednik Visuals 3D Studio Max 2014 DAZ Studio ZBrush 2018 Cinema 4D Unity 2018 Visual Studio 2018 keijiro Plugins Klak MidiKlak MidiJack OscJack Hard Audio 3 Macbook Pro 1 Apollo Twin Audio interface 1 Focusrite Clarett 1 Presonus Audiobox 1 Ableton Push2 1 Launchpad 1 Icreative Icon 1 Nanokontrol2 1 Midiplus Origin37 1 Electric Keyboard Yamaha P95 2 Shure SM58 Visuals 1 Laptop 1 Projector 1 Xbox One wireless controller 1 Akai Apc40 mk2 1 Apple AirPort Express Base Station STARTS Prize Inclusion and sustainability are at the core of this project that advocates recovering the native languages that have been so neglected over the years as well as fosters a relationship with nature that seems to have been lost in time 30 minutes. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/works/lhcvmm/index.html",
+      "text": "diego dorado - L.H.C.V.M.M. diego dorado es / en Work | Music | L a b s | Bio L.H.C.V.M.M. <= all works ... Large Hadron Collider Visual Music Machine is an Opensemble project. It is a visual music project based on data generated by the Large Hadron Collider , the world’s largest and most powerful particle accelerator located at CERN in Switzerland. Understanding Visual Music The work was presented at the concert given at the Galileo Galilei Planetarium in the City of Buenos Aires in November 2016 as part of the Noviembre Electrónico . It was developed by a multidisciplinary team representing the National Technological University of the City of Buenos Aires within a Fulldome Workshop called Understanding Visual Music conducted by the Galileo Galilei Planetarium and the Center for Experimentation and Research in Electronic Arts (CEIArtE ) of the National University of Tres de Febrero, in collaboration with UNTREFMEDIA, the National Technological University and the Cultural San Martín About Opensemble and L.H.C.V.M.M. Opensemble is an Algorithmic music collaborative ensemble , Opensemble Opensemble is also the name of a framework for collaborative algorithmic music. It employs the software engineering techniques used by the Open Source development model to discover the music that this kind of distributed and large scale collaboration can offer. The goal of L.H.C.V.M.M. was to translate the data generated by the ATLAS detector , one of the four major LHC experiments, into stimuli for the musical composition and performance. These initial questions emerged: What common language could we adopt to describe a piece of music without tying it to a specific work? How to translate ATLAS data into a descriptive piece of music to drive both music and visuals? What will be the framework to manage collaborations in such a work? The Framework We developed framework in Supercollider responsible for managing collaborations, receiving sound unit OSC messages, and finally reproducing the music. Collaborators register functions that implement sonically sound units matching certain spectromorphologic vocabulary terms by calling a method on the framework. Those functions receive a sound unit object as argument allowing collaborators to use its properties on their implementation. Finally, the framework selects the most suitable registered function for each received OSC message and pass the sound unit object to the selected function. This selection is done based on the best match of vocabulary terms of function descriptions and sound unit object properties. The work became a paper presented to the Internacional Computer Music Association at ICMC2016 . The following diagram can help to understand the data flow. For deeper details about the project, download the paper or dig into the project repository <= all works ... Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/57e593efc3f67afad0ec98a9bb9103cf/cf77e/icmc2016.webp",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/50a60d0e2a242666a7287d34d81f3b8b/2cb6c/diagram.png",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "en/works/live-coding/index.html",
+      "text": "diego dorado - Live Coding diego dorado es / en Work | Music | L a b s | Bio Live Coding <= all works => Live Coding is a form of performatic art and a creative technique based upon the use of improvised interactive programming. This is a playlist of live coding performances that I try to keep updated. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "en/works/live-emojing/index.html",
+      "text": "diego dorado - Live Emojing diego dorado es / en Work | Music | L a b s | Bio Live Emojing <= all works => Livecoding is a form of performatic art and a creative technique based upon the use of improvised interactive programming. It is often performed in live presentations in which one or many Livecoders generate a progression of visuals and music displaying the code for the audience to see. Live-emojing is a Livecoding technique I developed with the intention of including the audience in the performance. Spectators input patterns in an intuitive manner by sending series of emojis via social networks. Besides my interest in having the audience participate in the performance, I have the intention of bringing down the idea that programming is inaccessible. Socializing the code by inviting the spectator to intervene. I found in emojis a key to attract the public to reading the code. It’s appeal comes as a result of it being both a very familiar element and at the same time very antinatural to programming languages. This contrast makes it stand out. Emojis communicate quickly, easy and make no language distinction. Some Performances First Streaming #WorldEmojiDay 2018 at Centro Cultural Recoleta VIU Festival at Hangar.org , Barcelona Motivation My interest to make the audience take part in the livecoding experience brought to me the idea of livecoding with emojis I had previously tried to reach out for such interaction by other means. Enlarging the font to its maximum size so that reading the code would be comfortable to the audience. d1 $ stack [ n \"<1 2>*8\" # s \"feel\" # lpf ( slow 4.4 $ scale 600 4000 $ tri ) # lpq 0.051 , jux ( # speed ( scale ( - 0.5 ) 1 $ slow 3.2 $ tri ) ) $ whenmod 16 14 ( const $ s \"swsn:1*6\" # speed ( scale 2 1 $ slow 2 $ sine ) # orbit 3 # room 0.2 ) $ s \"[swbd:3 <swsn:3 swsn:3 swsn:1 [swsn:3 swsn:3]>]\" # orbit 3 # room 0.2 # dilei 0.25 0.25 0.5 , n ( d $ \"{0 0 7 0 7}%4\" + p ) # s \"bass8\" # gain 0.95 , note ( d $ ( every 3 ( const $ \"[0,7](3,8)\" ) $ every 4 ( const $ \"0*8\" ) $ \"0*2\" ) + \"[0,2,4,6]\" + 7 + p ) # m \"[2,3]\" # sustain 0.25 # gain 0.7 , note ( d $ slow \"<1 2>\" $ \"0 .. 3\" + \"<0 1 2>\" + p ) # m \"6\" # gain 0.9 # sustain 0.5 , s \"~\" ] versus d1 $ sound \"[drums, bass*2]\" Larger font size invites us to read it. Starting out from a blank page with simple sequences that were easy to relate to the audio being generated and gradually becoming more complex. d1 $ sound \"bd\" -- ... d1 $ sound \"bd*2\" -- ... d1 $ sound \"bd*2 sn\" -- ... d1 $ sound \"[bd*2 sn, hh*8?]\" The blank sheet generates a lot of curiosity and gives an opportunity to try to follow the initial logical sequences Code Localization . I created aliases in our native language of some function names or code blocks to replace their original English names as a way to engage Non-English speakers during presentations. let pista1 = d1 pista2 = d2 sonido = sound cada_tanto = sometimes despacito = slow 4 primeros_8 = run 8 empezar_desde = begin pista1 $ sonido \"bombo tacho\" # comprimir 0.2 pista2 $ cada_tanto despacito $ primeros_8 $ sonido \"numbers\" # empezar_desde 0.2 Displaying the code written in native language draws attention, eliminates the difficulty of the language barrier and focuses attention on what the code is really about. First Prototype Initially I wrote a haskell function to map 7 emojis to 7 different samples in tidalcycles’ livecoding environment. In this first proof of concept the emojis were not received but rather typed in the Atom editor (thanks to the autocomplete-emojis package) Emojis mapping function in Tidalcycles emoji x = sound ( fromString $ concatMap ( \\ c ) -> if c == '💚' then s \"bd:6\" else if c == '✊' then s \"sn:4\" else if c == '😬' then s \"dr\" else if c == '😎' then s \"dr:1\" else if c == '👄' then s \"feel:1\" else if c == '💋' then s \"kiss:2\" else if c == '😘' then s \"kiss\" else if c == '😸' then s \"cat\" ) d1 $ emoji \"💚(3,8) ✊*2\" Including Telegram I thought then that it would be fun to receive the emojis from the public, so I created a Telegram bot to interact with the audience. I developed an Atom plugin to handle messages received by the bot. These messages are automatically inserted by the plugin in certain positions of the editor. They remain occupied for 30 seconds by the same person. A countdown urged them to continue the game by updating the pattern or risk that someone else takes their place. The bot starts the conversation with a message explaining the rules of the game Upon receipt of a message, the bot would include it in the presentation and a possible tidalcycles pattern translation of the message would be responded to the sender. Including Facebook As I usually streamed the performance through Facebook, several people who did not knew about Telegram sent me the emojis via facebook chat. I understood that it would be a simpler process for the audience to participate by using those Facebook messages rather than asking them to install Telegram and write to the bot. So, I wrote a Chrome extension that would scrape the Facebook page looking for messages containing emojis in the streaming chat and send them back to the Atom plugin via websockets. You can see the comment by Damian Silvani appear in streaming video, next to his name In this way, a spectator, present in the audience or following the stream remotely, could send an “emoji algorithm” via Telegram or via Facebook and see the contribution next to his or her user name projected (or streamed) live. Eventually, even someone without any livecoding experience could relate the pattern of emojis sent with the pattern of sounds being generated by that intervention. This last point would be an educational path of minimum difficulty with the objective of introducing someone to the idea of programming applied to art. Including Reactive Visuals Once the interaction with the spectator was completed, I continued to develop a better graphic representation of the patterns with the intention of making it even clearer and more attractive. I included in the session a 3D scenario that runs as background to the editor and that responds visually to each sound event generated by the emoji patterns. This further facilitates the relationship between the sent emojis and the generated sounds. About emoji to sample mapping It is not possible to foresee the emojis that I would receive. Initially I took the decision of using the unicode value of the emoji as the index to be played from a folder of samples (strictly speaking, the rest of the division by the number of possible samples). This was comfortable, but not very useful, since the samples were repeated very often and it was not possible to guess the sound to be played. I started working on an alternative. Mapping all existing emojis was too much work. Someone must have made a list of the most popular emojis. I found something much better: emojitracker.com, a site that tracks the emojis used on twitter in real time and ranks them. I then took the most popular emojis and began to do a manual mapping, in a JSON file still in development, in which I grouped them by similarity. /*emojis.json*/ [ [ \"😃😄😅😉😋😍😘😗😙😚\" , \"feel:\" ] , [ \"😐😑😶😏😣😥😮😯😪😫😴😌😛😜😝😒😓😔😕😲\" , \"dr:\" ] , [ \"😖😞😟😤😢😭😦😧😨😩😰😱😳😵😡😠\" , \"feel:\" ] , [ \"😷\" , \"sick\" ] , [ \"😇\" , \"face_role\" ] , [ \"😈👿👹👺💀👻👽👾\" , \"fantasy\" ] , The goal is to achieve a correspondence between what the emoji represents visually and sonorously. Currently, this correspondence is totally arbitrary, for example, 💙💚💛💜 sound like bass drums 👋👏🙌🙏 sound like claps 💪✊💪👊 sound like snare drums 😦😧😱😵 sound like chants This makes it easier to understand how the emoji pattern sent should sound. Anyone can guess that 💚 * 4 is equivalent to 💜 * 4 Future expectations: I plan to continue with the development of these tools and take them to other environments. I have already done some tests on FoxDot. I think they can be highly educational in the field of programming, as an introductory approach and as a means of spreading the practice of livecoding. Due to the experience so far and the possibilities of extending this tool, I envision a new expressive medium to explore. I am working to publish the repositories of these plugins with their respective documentation and instructions with certainty that new and interesting applications will emerge from their disclosure. And above all: to have fun with emoji based music! 😆 <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/2acd17e2b25a8dc98a4e669b905c5928/00d43/cover.png",
+          "srcset": true,
+          "placeholder": false
+        },
+        {
+          "src": "/static/4de89544f375a6f409b04c1ff7d7f2e0/3d026/bot1.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/fe12863d034dc793a1b544e6c697f38e/ca501/bot2.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b94d15f23d1fc849fca9c2f874d0e638/00d43/fb.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/eb45ce86d325df079f8f11912c3abc2d/604ec/visuals.png",
+          "srcset": true,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "en/works/visuals/index.html",
+      "text": "diego dorado - Visuals diego dorado es / en Work | Music | L a b s | Bio Visuals <= all works => Along with @frenetikvoid we develop custom applications for interactive visuals that can be controlled by audio, MIDI, OSC and gamepads. We work close with the artists to make the visuals match theirs expectations, and to prepare some mechanisms to receive live data from their sets we can use in the performance. We work the visuals mainly in Unity, plus many 3D model softwares, MaxMSP and openframeworks. HD demos are here , here and here Special thanks to Keijiro Takahashi , who kindly released tons of well-documented repositories to use Unity for VJing. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/bio/cv/index.html",
+      "text": "diego dorado - bio diego dorado es / en Work | Music | L a b s | Bio Diego Dorado es live coder, programador y artista electrónico argentino. Le apasionan los proyectos de investigación que combinan innovación tecnológica con expresiones artísticas. Experiencia Laboral Asesor Pedagógico Diseño de material pedagógico sobre tecnologías emergentes como robótica, programación, impresión 3D y producción audiovisual y musical. Educar S.E. / educ.ar / 2016 - actualidad Productor de Eventos Diseño y producción de hackatones de tecnología para chicos de 12 a 18 años de edad. Educar S.E. / educ.ar / 2016 - actualidad Compositor y Diseñador Sonoro Música adaptativa para videojuegos, diseño de SFX e implementación. Machinga Games / machingagames.com / 2015 - 2017 Programador de Videojuegos Programación de Inteligencia Artificial, UI, optimización para mobile y extensión del editor de Unity. Machinga Games / machingagames.com / 2013 - 2015 Consultor en Sistemas Análisis de viabilidad de proyectos y asesoramiento en sistemas de gestión agropecuaria. Agroapex / agroapex.com.ar / 2013 - actualidad Desarrollador de Videojuegos Producción y programación de videojuegos. Integración de publicidades. Freelance / 2013 - 2015 Full Stack Developer Desarrollo de aplicaciones web y gestión comercial. Cooperativa Hormigón / 2006 - 2012 Programador de Aplicaciones Office Automatización de procesos e inteligencia de datos. Agroapex / agroapex.com.ar / 2004 - 2013 Obras y Desarrollos Live-Emojing Técnica de live coding desarrollada para hacer partícipe a la audiencia de la performance enviando emojis desde sus teléfonos. +info Human Aided Music Dúo de percusión humano-máquina en donde la máquina aprende del humano. +info Instrumento Óptico Performance escenográfica y audiovisual acerca del rescate de las lenguas y la relación con la naturaleza a través de un proceso de desintoxificación material y espiritual. +info CV2612 Módulo Eurorack basado en el clásico chip de síntesis FM usado en la Sega Genesis. +info Live Coding Una forma de arte performático y técnicas creativas basados en el uso de programación interactiva improvisada en vivo. +info Ceiborg Desarrollo de vestuarios con tecnología. +info Blue Mountain Viaje musical y pictórico en realidad virtual de paisajes sonoros y naturaleza fantástica que conduce a una contemplación pacífica. +info L.H.C.V.M.M. Large Hadron Collider Visual Music Machine es un trabajo de música visual en formato fulldome basado en datos generados por el mayor acelerador de partículas del mundo ubicado en Suiza. +info Opensemble Ensamble open source de música algorítmica formado por programadores, artistas y científicos. +info Docencia Taller de Impresion 3D / Educar S.E. / 2019 Desarrollo de Videojuegos / Clubes de Ciencia Colombia / 2019 Realidad Virtual para chicos / Centro Cultural de la Ciencia / 2017 Música para Videojuegos / Estudio Urbano / 2015 - 2016 Álgebra y Análisis Matemático / Freelance / 2010 Piano Inicial/ C. C. La Puerta / 1999 Formación Inteligencia Artificial aplicada al Arte / C.C. Matienzo / 2019 Música Expandida / UNSAM / 2018 Aplicaciones Matemáticas a la Música / C.L.F.I / 2016 Ingeniería en Electrónica / UBA-UTN / 2012-2015 Composición y Armonía Funcional / Diego Schissi / 2002-2003 Sintetizadores Modulares / Tercer Brazo / 2014-2015 Musica y Audio para VideoJuegos / UTN-VENTEN / 2015 Tecnicatura en Cerámica / Instituto Condorhuasi / 2012 - 2014 Programación en Java / Fundiación Proydesa / 2010 Excel Avanzado / Executrain / 2005 Piano / C.C. la Puerta / 1991-2000 Reconocimientos Concurso de Arte y Tecnología 2019 Seleccionado por el Fondo Nacional de las Artes para realizar una performance audiovisual en el Centro Cultural Kirchner. Residencias de Arte-Ciencia SM2 Seleccionado por el Centro de Investigación en Arte-Ciencia de la UNSAM para hacer un desarrollo de obra sobre inteligencia artificial. Club de Ciencia: Realidad Virtual Seleccionado por Clubes de Ciencia Colombia para dar un taller sobre desarrollo de videojuegos a chicos de 15 a 18 años. International Conference on Live Coding Seleccionado por InSonora para asistir a la conferencia internacional sobre live coding 2019 Idiomas Francés / Competencia Bilingüe Inglés / Competencia Profesional Tecnologías Unity, Logic Pro, Wwise, Fmod, C, C++, C#, ruby, python, html5, sass, es6, React, MaxMSP, pd, Ableton Live, Resolume, openframeworks, linux, git, Arduino, laravel, processing, tidalcycles, fritzing diegodorado.com +54 911 3758 3589 diegodorado@gmail.com argentino, 37 años Download: pdf Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/bio/index.html",
+      "text": "diego dorado - bio diego dorado es / en Work | Music | L a b s | Bio Diego Dorado es live coder, programador y artista electrónico argentino. Le apasionan los proyectos de investigación que combinan innovación tecnológica con expresiones artísticas. Ha trabajado como educador, diseñador sonoro, compositor y como desarrollador web y de videojuegos. Ha participado en obras de arte electrónico programando para microcontroladores, videojuegos, procesamiento de señales, audiovisuales, sonorización de datos y webs interactivas; así como para diferentes formatos: realidad virtual, realidad aumentada, fulldome, mapping, performance audiovisual, instalaciones sonoras y tecno-textiles. Curriculum Vitae: online | pdf Random pics, by Nicolás Croce . Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/4740eaaa4022116944a53263d559c8a0/d7fb4/profile.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/c2d8fd2ec39c0cff56edf5226cfea85f/77fa5/47685470_753595378336080_6886362863745630208_n.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/de99bd3425e11e5f084f20e3b3eb3d6a/5267c/48250887_753591561669795_3625914328764383232_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/357ebe0a3a1ecd3af6a0b3900d5d0af3/5267c/27797961_553897678305852_3010499763930184685_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b83c36515aceb5e6729e045b3a924e6b/fb26c/27907717_553897694972517_8329019581194399928_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/bd1ee4c0f9e37706b2231516e3b888e6/5267c/48077905_753591835003101_2482705214092607488_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/30a0c12e28b0e1544129831c2816c871/5267c/47686400_753592321669719_654390339729096704_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/fa8cb289e0380da0437143d38b2a7cec/5267c/48052517_753592308336387_1687438027204329472_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/d07bc909baf74a92ef22618b933cd37d/5267c/47580013_753594241669527_6488902492774989824_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2764dbcb40b08903f61c0eb8978afc9b/5267c/47685341_753594321669519_2418833316619747328_o.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/23e9f5d9cb1c25e34985019894a0bc99/5267c/DIEGO-14.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5199ecef8d9217eb223ea9fa93890986/5267c/DIEGO-17.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f07d67ee7a5b57e389d9e3887836a1c9/5267c/DIEGO-23.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/96cfdb2261f662e3756c7b4364d13910/5267c/DIEGO-16.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4835cd30329c906f3bba7038396ac63c/5267c/DIEGO-18.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4c907d75dbe6580d8d7696bc9c327bc9/5267c/DIEGO-12.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/43f733d2cfe0e6ad11c30459a0b5f422/5267c/DIEGO-6.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/30463ace810e85568dd4654c9b681c3a/5267c/DIEGO-9.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/72ff8e4df9b412acd7cbdc72efd7b6e3/5267c/DIEGO-20.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/labs/ada/index.html",
+      "text": "diego dorado - ADA elementary cellular automaton diego dorado es / en Work | Music | L a b s | Bio A.D.A. weaving algorithm. A.D.A. is a robotic work that autonomously weaves neo-representations of the chakana. The algorithm that A.D.A weaves is an elementary elementary cellular automaton where the rule to determine the state of a cell in the next generation depends only on its current state and its two immediate neighbors. We start from a random state, and then cycle through a selection of rules every 24 rows. Those rules are #18, #22, #26, #30, #45, #54, #60, #73, #82, #90, #106, #106, #109, #110, #122, #126, #129, #146, #150, #154, #195 , according to Stephen Wolfram. In order to keep weaving doable, we may swap out some cell if necessary. Transformations of rule #18 is being applied. Download Punchcard Download Preview Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/labs/index.html",
+      "text": "diego dorado - labs diego dorado es / en Work | Music | L a b s | Bio Arbitrary web experiments collection. A.D.A. weaves A.D.A. weaving algorithm simulator. Bingo Musical A present to my mother during COVID-19 lock down. CV2612 Editor CV2612 patch editor and midi mapper. MAP-H Brain of Bernardo, a funky drummer robot. Emoji Playground Music with emojis, alone or with others. Algo Rimo Random sonnets by permutations of verses. FM TRIBE Synth/drum machine/thingie with fm sounds developed by munshkr. Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/5bfe2d95b403e25633fe7aa6178b7c91/5f035/ada.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/6c41b303231b27bf1b6c387056b3931d/5f035/bingo.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5c8269f535d0925d25923993b8da6204/5f035/cv2612.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/8eb0bcf21a3ba74aa8a5b3fc0a7a45bd/1b894/maph.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/e9b04ee8bec0adc1006f6789bd8a4e6e/1b894/live-emojing.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/d0795dfe84c388f3c5f32062bb13bf88/5f035/algo-rimo.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/bade5f7dc7b95793a6d5546685bae947/5f035/fm-tribe.png",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/labs/live-emojing-midi/index.html",
+      "text": "diego dorado - live emojing diego dorado es / en Work | Music | L a b s | Bio Make music with emojis! 😆 😭 Cannot get channels list . Want to play on your own? play alone Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/labs/live-emojing/index.html",
+      "text": "diego dorado - live emojing diego dorado es / en Work | Music | L a b s | Bio Make music with emojis! 😆 😭 Cannot get channels list . Want to play on your own? play alone Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/le/index.html",
+      "text": "diego dorado es / en Work | Music | L a b s | Bio Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/live-emojing/index.html",
+      "text": "96 Live-Emojing ¡Hola! Soy Diego Dorado, programador y artista electrónico argentino. Fui seleccionado para participar de la Conferencia Internacional de Live Coding , y estaré de gira en Madrid, Barcelona, Roma y Berlín del 15 de Enero al 15 de Febrero . Vi lo que hacen en el espacio, y quería proponerles que organicemos: ¡una sesión de música con emojis ! ¿Cómo es eso? Es una performance audiovisual que se va programando en vivo . El código es proyectado para que se vea cómo es manipulado generando música y visuales.💻🎼 Los participantes pueden intervenir (aunque no sepan programar) enviando emojis desde su teléfono 📱😎😱🤖. Esos emojis empiezan a formar parte del código 📟👾y alteran la música que programamos en conjunto 🎹🎷🎉😂🎊 La logística es sencilla . Yo llevo mi notebook💻. Solo hace falta proyector, sonido e internet. 📺🔊📶 UN POCO SOBRE MÍ Soy Diego Dorado, programador y artista electrónico. Me apasionan los proyectos de investigación que combinan innovación tecnológica con expresiones artísticas. Me he desempeñado como Desarrollador Web, Programador Desktop, Desarrollador de Videojuegos, Consultor en Sistemas, Compositor, Diseñador Sonoro y como Educador. Como artista he participado en diversas obras de arte electrónico programando videojuegos, microcontroladores, procesamiento de señales, visuales audioreactivas, programación en vivo, sonorización de datos y webs interactivas; así como para diferentes formatos: realidad virtual, realidad aumentada, fulldome, mapping, performance audiovisual, instalaciones sonoras y tecnovestuario. Aquí pueden ver algunos trabajos : LHCVMM | Blue Mountain | Ceiborg | Instrumento Óptico | LiveCoding | Musica Asistida por Humano | Live-Emojing Y en mi Instagram @diegdorado verán más proyectos. ¿Les interesa la propuesta? Escríbanme y coordinamos una llamada para organizarlo! 📨 diegodorado@gmail.com 📱+54 911 3758 3589 @diegdorado Un abrazo y hasta pronto! Diego 😁",
+      "images": [
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/6bf47eba-3072-4ae9-9273-bfcfe634ca5b.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/b2ddc6b0-eccb-4a12-81c4-4c96dbcbe7d7.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/a404f8cd-4d89-490a-88e7-b9c89ec77854.png",
+          "srcset": false,
+          "placeholder": false
+        },
+        {
+          "src": "https://gallery.mailchimp.com/363215fa7adb133ebedbae1a9/images/0faee675-b609-4173-b44b-c115b9475da9.jpg",
+          "srcset": false,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "es/music/index.html",
+      "text": "diego dorado - music diego dorado es / en Work | Music | L a b s | Bio Listen to the albums produced by Diego Dorado here or on bandcamp , spotify , apple , amazon , youtube o deezer . Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/work/index.html",
+      "text": "diego dorado - work diego dorado es / en Work | Music | L a b s | Bio Diego Dorado is a live coder, programmer and electronic artist based in Argentina. He is passionate about research projects that combine technological innovation with artistic expressions. Recent works : A.D.A. Robotic work that autonomously weaves neo-representations of the Andean cross. Visuals A set of interactive software, originally made as visuals for different live performances. Live Emojing Livecoding technique to allow the audience to send emoji patterns through their phones. Human Aided Music A human-machine musical dialogue where the leader is not clearly distinguishable. Intrumento Óptico Performance about the recovery of our languages through a process of detoxification. CV-2612 An eurorack module based on the classic FM chip used by Sega Genesis Live Coding Performatic art technique based upon the use of improvised interactive programming. Ceiborg Creative laboratory linking textile art and costumes with science and technology. Blue Mountain Musical and pictorial journey of beautiful soundscapes and fantastic nature. L.H.C.V.M.M. Visual Music project based on data generated by the Large Hadron Collider. Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/74fa83fcbd04e09b44d158eb8bba7bfc/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/7bce586724f5086d8c8f065757ea4da2/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2acd17e2b25a8dc98a4e669b905c5928/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b6a2a5a3a1a786fb87e2d0d809dfb7d4/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/5ca5520f990039b372981b2379f6621e/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/1915b803311fb4363b05e4159702c271/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f07d67ee7a5b57e389d9e3887836a1c9/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/eedf2d387b4b2e27e8e0a6a3d89539c3/1b894/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2730d1495d47ff7fc78edbcfd70f4883/5f035/cover.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/4a91408b1fd010aeb5a0919cfd8b5153/5e011/cover.webp",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/ada/index.html",
+      "text": "diego dorado - A.D.A. diego dorado es / en Work | Music | L a b s | Bio A.D.A. ... all works => A.D.A. es una obra robótica, realizada en colaboración con ceiborg , que teje autónomamente neo-representaciones de la chakana, síntesis de la cosmovisión andina. Su nombre se refiere a una “Autotejedora de Diseños Algorítmicos”, y celebra la mirada tecno-poética y el genio de Ada Lovelace, conectando los primeros telares industriales con las ciencias de la computación. En el centro de una sala tranquila y de paredes vacías, una máquina extraña exhibe un tejido extenso. Se escucha además una percusión sin estridencias, que parece provenir del mismo sitio, repitiendo una secuencia casi ritual. Cada cierto tiempo y de forma autónoma, el carro se mueve de un lado hacia el otro extendiendo el tejido. Y al hacerlo, la secuencia percusiva cambia. — ¿Estarán relacionados? El dibujo del tejido es algo abstracto, pero pueden intuirse reminiscencias de símbolos andinos. Y mientras que la cadencia de la percusión sugiere repetición, el tejido demuestra que lo constante es el cambio. El ritmo de trabajo es tan pausado que no cuadra en la escena el rigor de la producción en masa. — Pero, ¿de qué se trata esta máquina? Teje sin apuro, dando la impresión de estar realizando un trabajo consciente, desplegando un dibujo que, más que una prenda, parece un pergamino. Como una inteligencia solitaria cuya misión es preservar un mensaje primitivo. Pensemos por un momento en el huso: una antigua herramienta para generar hilados por torsión de fibras vegetales y animales, que luego dieron lugar a prendas más complejas gracias al telar. El huso y el telar, dos de los inventos más revolucionarios del Neolítico, dan cuenta de que la tecnología siempre estuvo presente en el trabajo del artesano. En la historia de los pueblos originarios de Argentina, se utilizaron diversas técnicas para la elaboración de tejidos. Desde el norte hasta el sur, cada pueblo interpretó y plasmó su visión del mundo con materiales y técnicas propias del lugar. A pesar de las diferencias geográficas y culturales, encontramos significados comunes en sus diversas representaciones. La chakana (o cruz andina) es un símbolo recurrente que significa “escalera hacia lo más elevado” y constituye la síntesis de la cosmovisión andina. Cuando estos pueblos quisieron plasmar su cosmovisión, representaron sus símbolos con la tecnología que tenían a su disposición. Si no hubiesen dado aún con el huso, tal vez habríamos hallado la chakana en pinturas rupestres. Pero como eran diestros con el telar, su mensaje nos llega a través de sus tejidos. ¿Cómo podríamos hoy, con la tecnología actual, continuar con su legado? Uno para arriba, uno para abajo, cambio de color, vuelvo en sentido contrario… Desde una simple trenza hasta la trama más intrincada, el arte del tejido obedece a un conjunto de reglas ordenadas y definidas. Este conocimiento, estas instrucciones precisas, fueron transmitidas de generación en genera ción por estos pueblos que, tal vez sin saberlo, dejaron en sus tejidos tempranas muestras de arte algorítmico. En este cruce tan singular entre telares y algoritmos, y en los tiempos de los telares de Jacquard de tarjetas perforadas, surge la fantasiosa idea de construir un telar aplicado a los números, es decir, una computadora. ¿No es asombroso que toda la tecnología de cómputo que hoy conocemos esté de algún modo ligada a los telares tradicionales? Ada Lovelace fue una matemática, escritora y, según ella, científica poetisa y analista. En sus notas sobre la Máquina Analítica de Charles Babbage, dejó escrito el primer algoritmo destinado a ser procesado por una máquina, convirtiéndose así en la primera programadora. En estas mismas notas, auguró que esta máquina podría actuar sobre otras cosas además del número, si se encontraran objetos cuyas relaciones fundamentales mutuas pudieran ser expresadas por las de la ciencia abstracta de las operaciones . ¿Será posible utilizar este tipo de artificios para crear neo-representaciones de la chakana? ¿Podremos abstraer las características formales de la chakana y generar reinterpretaciones del símbolo? Nos anima Ada a sospechar que sí, quien un siglo antes de la invención del primer computador, y refiriéndose a una máquina que nunca se construyó, dejó entre notas técnicas poemas como el siguiente: “La Máquina Analítica teje patrones algebraicos, al igual que el telar Jacquard teje flores y hojas.” Para mas información sobre el algoritmo utilizado por A.D.A. para tejer, entrar aquí ... all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/f92cad5315d87673b37b38b1bb90bb19/a2510/artifact.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/f166acd450456d8f36f041fc441ea22a/a2510/huso.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/2acfbfcc2d69cd1427f9ba422eff21d7/b8284/chakana.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/9f816852094d6f85347b2b18b8b5ebb7/a2510/punchcard.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/25d718e5a7d6a5697749122134ddd9b8/a2510/ada.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/ec0e04bc2716350b95821653a003e636/c8c67/diagrams.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/blue-mountain/index.html",
+      "text": "diego dorado - Blue Mountain diego dorado es / en Work | Music | L a b s | Bio Blue Mountain <= all works => Blue Mountain is a musical and pictorial journey of beautiful soundscapes and fantastic nature that leads to a peaceful contemplation. An exploratory audiovisual landscape approached through virtual reality technology. Each element that conform the virtual environment has a certain pictorial-musical representation. Depending on which path the user takes, the sound environment is modiﬁed as it moves through space. Visit the old project site Watch the trailer <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/ee7b5733635cfac8fbb3ab3cc7cd5370/00d43/b.png",
+          "srcset": true,
+          "placeholder": false
+        },
+        {
+          "src": "/static/d9c46af5c9ac5962f847b53c791aa101/00d43/f.png",
+          "srcset": true,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "es/works/ceiborg/index.html",
+      "text": "diego dorado - Ceiborg diego dorado es / en Work | Music | L a b s | Bio Ceiborg <= all works => Ceiborg es un laboratorio creativo que vincula arte textil y vestuario con ciencia y tecnología. Desarrolla sus tecno-textiles mediante diversas herramientas y técnicas: electrónica y programación para crear electro-textiles modelado e impresión 3d para producir textiles impresos cultivo de hongos y bacterias para generar bio-textiles Ceiborg es la conjunción de las palabras ceibo (flor nacional argentina) y cyborg (cyber organism). ceibo + cyborg = ceiborg Ceiborg fue fundado por Eliana Guzmán en el año 2016. Eliana es Diseñadora de Indumentaria y Textil (UADE), Vestuarista y Artista Tecno-Textil. Mas información en ceiborg.com <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/37e568378c629f33419aecc8aac9987f/78c04/uv.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/45cd3552311d1f17f8503194469caf95/61008/psique.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/e92cbd24a8fe2d25291d03a9c9da93e3/acb04/ceiboard.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/ee886affd8784c01f5e7b66afff438f2/747d8/teatro.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/de8a952d894ab2aaf5b9fb51eb8c9d4f/acb04/eva.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/cv2612/index.html",
+      "text": "diego dorado - CV-2612 diego dorado es / en Work | Music | L a b s | Bio CV-2612 <= all works => CV2612 is an eurorack module based on the classic FM chip used by Sega Genesis: the great YM2612. It has MIDI i/o, and yes! it has control voltage inputs ! It is on its final development stage and we hope to see it on the market soon. MIDI Specs CV2612 has two 3.5mm TRS MIDI connectors: MIDI In and MIDI Out. MIDI Out can act as a software MIDI Thru if THRU_ENABLE is 1 . Note Messages Note On/Off messages are received on channels 1 to 7 If received on channel 1, they treated differently based on Poly Mode configuration If Poly Mode is set to Mono , a note will use all six voices If Poly Mode is set to Poly , a note will use a single voice with up to 6 voices of polyphony, first in/first out. Otherwise, notes on channels 2-7 goes to voices 1-6 respectively. Pitch Bend Messages Pitch Bend messages are received on channels 1 to 7 If received on channel 1, they affects all six voices Otherwise, pitch bends on channels 2-7 affects voices 1-6 respectively. Received CC/NRPN Messages CC messages received are on channels 1 to 16 Every CV2612 voice related parameter is mapped to a CC message by default according to the following table, but can be configured through the CV2612 Online Tool MIDI DIN runs at 31250 bits per second. That’s roughly 3000 bytes per second, which in a MIDI stream transferring CC data (3 bytes each) as quickly as possible, works out to about 1000 CC changes per second. play-mode vel-sensitivity cc-mode rgb-intensity As a general rule, a parameter on MIDI channel 1 apllies to all six voices, and on Midi channel 2 to 7, applies to voices 1 to six respectively. Global parameters do not take into account the MIDI channel used. NRPN MSB NRPN LSB CC Channel Code Parameter Global Parameters 01 0 1 - LF0_F Low Frequency Oscillator Frequency 02 0 2 - LF0_E Low Frequency Oscillator Enable 03 0 3 - THRU_E Enable Software MIDI Thru 04 0 4 - TX_CC Transmit CC 05 0 5 - POLY_M Poly Mode (Mono/Poly) Channel Parameters 20 0 20 1-7 AL Operators Algorithm 21 0 21 1-7 FB Feedback of Operator 1 22 0 22 1-7 FMS Frequency Modulation Sensitivity 23 0 23 1-7 AMS Amplitude Modulation Sensitivity 24 0 24 1-7 ST Stereo Configuration Operator 1 Parameters 30 0 30 1-7 AR Attack Rate 31 0 31 1-7 D1 Decay 1 Rate 32 0 32 1-7 SL Sustain Level 33 0 33 1-7 D2 Decay 2 Rate 34 0 34 1-7 RR Release Rate 35 0 35 1-7 TL Total Level 36 0 36 1-7 MUL Frequency Multiplier 37 0 37 1-7 DET Detune 38 0 38 1-7 RS Rate Scaling 39 0 39 1-7 AM Amplitude Modulation Enable Operator 2 … 40 1 40 1-7 AR Attack Rate … Operator 3 … 50 2 50 1-7 AR Attack Rate … Operator 4 … 60 3 60 1-7 AR Attack Rate … * Commands * 70 0 - - - Set a patch 71 1 - - - Select a patch Transmitted CC Messages A few CC messages are transmitted on channels 1 if TX_CC is 1 . CC Channel Code Parameter 1 1 CV_MSB Control Voltage MSB 2 1 CV_LSB Control Voltage LSB 3 1 GATE Gate - - 10 1 X_MSB X MSB 11 1 X_LSB X LSB 12 1 Y_MSB Y MSB 13 1 Y_LSB Y LSB 14 1 Z_MSB Z MSB 15 1 Z_LSB Z LSB SysEx Messages Other configuration parameters though, can only be changed with sysEx messages through the CV2612 Online Tool As a brief description, the following sysex messages are received: ID_REQUEST PARAM_LOAD MAPPING_DUMP_REQUEST MAPPING_LOAD VOICE_DUMP_REQUEST VOICE_LOAD PATCH_DUMP_REQUEST PATCH_LOAD PATCHES_DUMP_REQUEST PATCHES_LOAD And the following sysex messages are transmitted: ID_REPLY MAPPING_DUMP_REPLY VOICE_DUMP_REPLY PATCH_DUMP_REPLY PATCHES_DUMP_REPLY Being ID: Identity of the device PARAM: a single parameter MAPPING: The CC to parameters mapping VOICE: a single voice in the chip, a.k.a. channel PATCH: a patch is comprised of 6 voices, lfo and ploymode settings PATCHES: a set of 4 patches Happy FMing! <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/25fcec3b576a249d96876b73e7525ceb/a2510/banana.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/human-aided-music/index.html",
+      "text": "diego dorado - Musica Asistida por Humano diego dorado es / en Work | Music | L a b s | Bio Musica Asistida por Humano <= all works => Música Asistida por Humano es un dúo de percusión Humano-Máquina en el cual la máquina aprende del humano. Propone un diálogo fluído entre ambos, al punto en que no se distinga quién lidera la música. Se trata de una escultura robótica, llamada Bernardo, dotada de un programa de inteligencia artificial capaz de acompañar musicalmente a un intérprete humano. La obra habla sobre la creación de vida artificial desde una perspectiva artística, preguntándose si una máquina-baterista-funky que pueda mantener una conversación musical con una persona podría ser un espectáculo creíble. Creíble no en el sentido del engaño, sino en el sentido de reconocer el rastro humano en la máquina. ¿Llegaría el espectador a sentir que en la máquina, aunque de forma rudimentaria, hay vida? Aún limitándose a un baterista funky , plantea cuestiones delicadas. ¿Cuál es el propósito de hacer que una máquina toque la batería si ya tenemos buenos bateristas? ¿Cuál es el propósito de la vida artificial? ¿Por qué Golems? ¿Por qué criaturas de Frankenstein? La creación de vida siempre asociada al horror : ¿crearemos monstruos? ¿Nos reemplazarán las máquinas? Pero asociado también a los mayores deseos del ser humano: la búsqueda de la inmortalidad y la ruptura de todo límite. Cuando piensas en el Golem o Frankenstein, ¿dirías que son humanos? ¿Dirías que no lo son? Seguimos hablando de bateristas funky … pero si logramos transferir las habilidades de un baterista a un programa de inteligencia artificial, ¿qué no podríamos hacer, potencialmente? Presentaciones Presentación en el Centro Cultural San Martín, durante Noviembre Electrónico 2019 . La obra fue seleccionada para el programa de residencias arte-ciencia SM2. Presentación en Universidad Naciona de San Martín, en diciembre 2018. La IA del proyecto aún estaba en desarrollo. Pero estaba ansioso por probarlo, así es que aquí estoy livecodeando a Bernardo junto con algunos sintetizadores. Estética La propuesta estética es humanizar la máquina y “maquinizar” al humano con la intención de que este cruce provoque la sensación de cercanía entre ellos. Los elementos normalmente asociados con humanos se transfieren a la máquina y viceversa. Mientras que la máquina golpea cuerpos de percusión acústica con actuadores electromagnéticos, el ser humano tiene equipos electrónicos con sonidos sintéticos. El título juega también con este cruce: desde hace años se conoce el término música asistida por ordenador, en el que el compositor humano utiliza la máquina para resolver tareas técnicas y de alta precisión para realizar su obra. Aquí proponemos lo contrario: es la máquina la que “compone”, pero necesita la ayuda de un humano para inyectar emoción a su trabajo. Bernardo tiene un aspecto híbrido máquina-animal-humanoide y todos los signos de lo imperfecto e inacabado: falta de simetría, fragmentos de diferentes tecnologías y materiales, y evidencia de reparaciones recientes. Una criatura única más que un dispositivo. Un rastro claro de haber sido engendrado. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/bbe2985d48ad6ba6daf4c3afaf352e36/a2510/sm2.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/c726a87a6d634053cf6399f0fac0fbbd/a2510/bernardo.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/01064d0faeea55769b7c8ab7c1b72f65/066f9/golem.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/8eee256049785ce17bfb39fdfd2171f7/066f9/deniro.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b6a2a5a3a1a786fb87e2d0d809dfb7d4/a2510/cover.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/7265ce4e5c21c58e13b332b91ceb4e8a/a2510/max.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/i-o/index.html",
+      "text": "diego dorado - Intrumento Óptico diego dorado es / en Work | Music | L a b s | Bio Intrumento Óptico <= all works => I-O is an audiovisual and scenographic performance about the recovery of our languages and the relationship with nature through a process of spiritual and material detoxification. Inclusion and sustainability are at the core of this project that advocates recovering the native languages that have been so neglected over the years as well as fosters a relationship with nature that seems to have been lost in time. Origin The project began in november 2017, when Josefina Barreix launched a solo EP produced with Andrés Marino and published by FUNGI Records . Bandcamp | Spotify | Soundcloud | Itunes The album was composed and produced by Josefina Barreix & Andres Marino, mixed by Pablo Del Fauno Gil & Andrés Marino in Ideo Music Studio , and mastered by Pablo Del Fauno Gil in La Siesta del Fauno Studio-Lab . The album was a success and attracted the attention of many people who wanted to take part on it. That is why it has featuring Flor Wosh (choirs in “Dysecdysis”), Ernesto Romeo (synthesizers in “Incorporo”), Violeta García (violoncello in “Incorporo”), Santiago Colombatto (bowls in “Incorporo”), Abelardo Saravia (choirs in “Incorporo”), Melina Moguilevsky (choirs in “Incorporo”), Guillermina Teves (album cover) and Lea Bon (photography). Even Indie Rock Magazine got interested and wrote an article about it . All this excitement led to the idea of taking the EP to the next level, transforming it into an audiovisual and scenographic performance . Concept Although during the presentation words are expressed vocally both in Spanish and Ranquel (native language spoken by pre-columbian cultures), abstract emotional sounds take the actual spotlight. Words sometimes serve as barriers, obfuscating true purpose and emotion. There are universal sounds capable of overcoming the inevitable distances inherent of dialects and languages. Sound, as a primary language is the first step towards personal detoxification. The opus is comprised of four moments of a mythical story: “Euphoria”, “Dysecdysis”, “Diaphanus” and “Incorporo”. Euphoria Dopamine fills the brain with a feeling of confidence and an exaggerated sense of well-being. The self-exalted individual seeks for internal shelter; isolation and solitude follow. Reality does not satisfy his desires and leads him to deep disappointment and the need to rebel against the established. Dysecdysis Named after a condition which causes failure in reptiles’ outer skin shedding. This process of detoxification can only be overcome by the replacement of the old by the new. Diaphanus Transparent or translucent; allows light to pass through. It means to appear, not in a deceptive way, but to show what is manifestly real, what is perceivable by the senses and has strength of evidence. Incorporo In order for the human being to learn something from nature, other intelligences must exist before nature itself, without a body, volume or consistency. These intelligences belong to the spirit and cannot be perceived by the senses. Aesthetics The voice is a broad instrument that oscillates from recognizable human uses such as tribal screams, whispered poems, ritual choirs and gated vocals towards less familiar digital textures such as granular percussion, background echo and synthesized pads. Melancholic Wurlitzers and increasingly tense cellos harmonize the sound universe while the rhythm is given by multiple lines of synthetic bass, stuttered drums and samples ranging from metal, glass and fire to jungle field recordings. The visual aspect deals with an absence of tone leaving the main voice to be highlighted with a specially handcrafted red cape. An abandoned temple emerges in the vast ocean, suspended in a three-dimensional void. Matter evolves from lonely dust to glowing particles, organically alive and extremely sensitive to sound. Presentations Since its inception, IO was presented in the following venues. 03/18 | Chela Cultural Center´ | Buenos Aires, AR 09/18 | UNTREF´´´´´´´´´´´´´´´´ | Buenos Aires, AR 09/18 | Roseti Cultural Center | Buenos Aires, AR 12/18 | La casa de la pampa´´´ | Buenos Aires, AR 02/19 | La Invisible´´´´´´´´´´ | Montevideo, UR <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/9ba2315c695045d11016d8c974dc3f38/a2510/iolive2.jpg",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/0fdf9cb6343f41938fffc92bae67c60b/a2510/iolive4.jpg",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/i-o/poem/index.html",
+      "text": "diego dorado - Poem of HUKO diego dorado es / en Work | Music | L a b s | Bio Poem of HUKO <= all works => El Poema de HUKO por Instrumento Optico Prolegómenos En la nada absoluta, libre de imagen, apenas un murmuro profundo, grave y omnidireccional existía. En el centro de la nada latía el huevo primordial, gigante y oscuro. Latía espaciadamente, con la copresencia de aquel arruyo etéreo. Y en cada creciente latido, los primeros indicios de vida consciente propagaban fisuras destellantes. La eclosión fue brutal, y antes de que cayera al suelo el último pedazo del cascarón, Huko estuvo de pie tan fuerte y confuso como un volcán activo. Capaz de lanzar rocas a los cielos; capaz de llorar ríos de sangre ardiente. En sentidas danzas quiso expresarse, polifacética y fragmentadamente, con la torpeza de un recién nacido. Dysecdysis Al advertirse limitado por su propia naturaleza, se arrojó al acto libre y humano de romper con su vida anterior, como una oruga que abraza la muerte para poder volar. Fue una lucha salvaje y decidida, con la inquietante sensación de estar perdiendo algo de sí, al verse a sí mismo rasgar sus propios pellejos. Y como los últimos vestigios de su ser inmaduro aún se hallaban adheridos a su nueva delicada piel, Huko tuvo que escoriarse en un esfuerzo volitivo. Diafano Sobrevino luego, la calma después de la tormenta; o del tormento. Huko sintió el cuerpo exhausto pero el corazón regocijado A fin de evitar un regreso, sus heridas habían de sanar conscientemente, y solo restaba esperar humildemente la alborada. Huko descansó frágil en el remanso de un lago nutrido por el cielo nocturno, y la claridad de la luna atravesaba tenuemente su cuerpo. Incorpóreo Al volver del sueño reparador, por la tibieza del lago Huko no sentía los límites de su cuerpo. La piel, que otrora deslindara el espacio interno del externo, se había evanescido completamente. Huko se incorporó livianamente; desplegándose, reconociéndose. Inspiró profundamente cargándose de energía y se extiendió de brazos y piernas difundiéndola por ellos, extendiéndose sin fin, ramificándose. Inspiró nuevamente y en sus ojos cegados y en su pecho henchido se concentraba todo el resplandor del alba, vibrando en altas frecuencias. Inspiró una tercera vez, y en un éxtasis luminoso, Huko se tornó inmaterial. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/works/i-o/presentation/index.html",
+      "text": "diego dorado - I-O 2 diego dorado es / en Work | Music | L a b s | Bio I-O 2 <= all works => Instrumento Optico Intro IO is an audiovisual and scenographic performance about the recovery of our languages and the relationship with nature through a process of spiritual and material detoxification. Concept The work is presented in Spanish, Ranquel (native language), and sounds that represent emotion. Words sometimes obfuscate their purpose and their real connection with emotion, as they are tied to the singular perception and experiences each subject has. There are universal sounds that overcome the barriers of dialects and languages. Sound as a primary language is a first step towards detoxification. The work is comprised of four moments of a mythical story: “Euphoria”, “Dysecdysis”, “Diaphanus” and “Incorporo”. Euphoria Dopamine fills the brain with a feeling of confidence and exaggerated well-being. The self-exalted one takes refuge in itself, getting isolation and solitude. Reality does not satisfy his desires and leads him to that feeling of deep disappointment and the need to rebel against the established. Dysecdysis A skin disease of a reptile that occurs when the shedding of the dead outer skin fails. This process of detoxification can only be overcome by the replacement of the old by the new. Diaphanus Transparent or translucent; which allows light to pass through. It means to appear, not in a deceptive way, but what is manifestly real, what is present for the senses and has strength of evidence. Incorporo So that the human being can learn something from the nature, other intelligences must exist before nature itself, without body, volume or consistency. They belongs to the spirit and can not be perceived by the senses. https://www.youtube.com/watch?v=_gTlaWTMAgI https://open.spotify.com/album/3TxWEBQPKrpgCBArsjTbwU?si=WQL0w93YSoi948TPJ1BJtw http://diegodorado.github.io/works/i-o/ Credits Josefina Barreix, Andres Marino, Sofia Efron, Clara Aguayo, Celeste Lambert Frutos, Francisca Armando , Franco Verrascina, Diego Dorado Support received by Universidad Tres de Febrero Artes Electronicas (University) La Siesta del Fauno Estudio Laboratorio( lab studio) YAELTEX (Custom MIDI Controllers Makers) Work Technical Details Soft: Audio Ableton Live 9.7 and 10 Custom Max4Live patches Primary VSTs The Finger, by Tim Exile Stutter, by Izotope Aparillo, by Sugar Bytes Keyscape, by Spectrasonics Battery 4, by Native Instruments Kontakt 5, by Native Instruments Cryogen, by Glitchmachines FabFilter Pro R Argotlunar by Michael Ourednik Visuals 3D Studio Max 2014 DAZ Studio ZBrush 2018 Cinema 4D Unity 2018 Visual Studio 2018 keijiro Plugins Klak MidiKlak MidiJack OscJack Hard Audio 3 Macbook Pro 1 Apollo Twin Audio interface 1 Focusrite Clarett 1 Presonus Audiobox 1 Ableton Push2 1 Launchpad 1 Icreative Icon 1 Nanokontrol2 1 Midiplus Origin37 1 Electric Keyboard Yamaha P95 2 Shure SM58 Visuals 1 Laptop 1 Projector 1 Xbox One wireless controller 1 Akai Apc40 mk2 1 Apple AirPort Express Base Station STARTS Prize Inclusion and sustainability are at the core of this project that advocates recovering the native languages that have been so neglected over the years as well as fosters a relationship with nature that seems to have been lost in time 30 minutes. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/works/lhcvmm/index.html",
+      "text": "diego dorado - L.H.C.V.M.M. diego dorado es / en Work | Music | L a b s | Bio L.H.C.V.M.M. <= all works ... Large Hadron Collider Visual Music Machine is an Opensemble project. It is a visual music project based on data generated by the Large Hadron Collider , the world’s largest and most powerful particle accelerator located at CERN in Switzerland. Understanding Visual Music The work was presented at the concert given at the Galileo Galilei Planetarium in the City of Buenos Aires in November 2016 as part of the Noviembre Electrónico . It was developed by a multidisciplinary team representing the National Technological University of the City of Buenos Aires within a Fulldome Workshop called Understanding Visual Music conducted by the Galileo Galilei Planetarium and the Center for Experimentation and Research in Electronic Arts (CEIArtE ) of the National University of Tres de Febrero, in collaboration with UNTREFMEDIA, the National Technological University and the Cultural San Martín About Opensemble and L.H.C.V.M.M. Opensemble is an Algorithmic music collaborative ensemble , Opensemble Opensemble is also the name of a framework for collaborative algorithmic music. It employs the software engineering techniques used by the Open Source development model to discover the music that this kind of distributed and large scale collaboration can offer. The goal of L.H.C.V.M.M. was to translate the data generated by the ATLAS detector , one of the four major LHC experiments, into stimuli for the musical composition and performance. These initial questions emerged: What common language could we adopt to describe a piece of music without tying it to a specific work? How to translate ATLAS data into a descriptive piece of music to drive both music and visuals? What will be the framework to manage collaborations in such a work? The Framework We developed framework in Supercollider responsible for managing collaborations, receiving sound unit OSC messages, and finally reproducing the music. Collaborators register functions that implement sonically sound units matching certain spectromorphologic vocabulary terms by calling a method on the framework. Those functions receive a sound unit object as argument allowing collaborators to use its properties on their implementation. Finally, the framework selects the most suitable registered function for each received OSC message and pass the sound unit object to the selected function. This selection is done based on the best match of vocabulary terms of function descriptions and sound unit object properties. The work became a paper presented to the Internacional Computer Music Association at ICMC2016 . The following diagram can help to understand the data flow. For deeper details about the project, download the paper or dig into the project repository <= all works ... Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/57e593efc3f67afad0ec98a9bb9103cf/cf77e/icmc2016.webp",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/50a60d0e2a242666a7287d34d81f3b8b/2cb6c/diagram.png",
+          "srcset": true,
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "path": "es/works/live-coding/index.html",
+      "text": "diego dorado - Live Coding diego dorado es / en Work | Music | L a b s | Bio Live Coding <= all works => Live Coding es una forma de arte performático y una técnica creativa basada en el uso de programación interactiva improvisada. Esta es una lista de reproducción de performances de live coding que trato de mantener actualizada. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "es/works/live-emojing/index.html",
+      "text": "diego dorado - Live Emojing diego dorado es / en Work | Music | L a b s | Bio Live Emojing <= all works => Livecoding is a form of performatic art and a creative technique based upon the use of improvised interactive programming. It is often performed in live presentations in which one or many Livecoders generate a progression of visuals and music displaying the code for the audience to see. Live-emojing is a Livecoding technique I developed with the intention of including the audience in the performance. Spectators input patterns in an intuitive manner by sending series of emojis via social networks. Besides my interest in having the audience participate in the performance, I have the intention of bringing down the idea that programming is inaccessible. Socializing the code by inviting the spectator to intervene. I found in emojis a key to attract the public to reading the code. It’s appeal comes as a result of it being both a very familiar element and at the same time very antinatural to programming languages. This contrast makes it stand out. Emojis communicate quickly, easy and make no language distinction. Some Performances First Streaming #WorldEmojiDay 2018 at Centro Cultural Recoleta VIU Festival at Hangar.org , Barcelona Motivation My interest to make the audience take part in the livecoding experience brought to me the idea of livecoding with emojis I had previously tried to reach out for such interaction by other means. Enlarging the font to its maximum size so that reading the code would be comfortable to the audience. d1 $ stack [ n \"<1 2>*8\" # s \"feel\" # lpf ( slow 4.4 $ scale 600 4000 $ tri ) # lpq 0.051 , jux ( # speed ( scale ( - 0.5 ) 1 $ slow 3.2 $ tri ) ) $ whenmod 16 14 ( const $ s \"swsn:1*6\" # speed ( scale 2 1 $ slow 2 $ sine ) # orbit 3 # room 0.2 ) $ s \"[swbd:3 <swsn:3 swsn:3 swsn:1 [swsn:3 swsn:3]>]\" # orbit 3 # room 0.2 # dilei 0.25 0.25 0.5 , n ( d $ \"{0 0 7 0 7}%4\" + p ) # s \"bass8\" # gain 0.95 , note ( d $ ( every 3 ( const $ \"[0,7](3,8)\" ) $ every 4 ( const $ \"0*8\" ) $ \"0*2\" ) + \"[0,2,4,6]\" + 7 + p ) # m \"[2,3]\" # sustain 0.25 # gain 0.7 , note ( d $ slow \"<1 2>\" $ \"0 .. 3\" + \"<0 1 2>\" + p ) # m \"6\" # gain 0.9 # sustain 0.5 , s \"~\" ] versus d1 $ sound \"[drums, bass*2]\" Larger font size invites us to read it. Starting out from a blank page with simple sequences that were easy to relate to the audio being generated and gradually becoming more complex. d1 $ sound \"bd\" -- ... d1 $ sound \"bd*2\" -- ... d1 $ sound \"bd*2 sn\" -- ... d1 $ sound \"[bd*2 sn, hh*8?]\" The blank sheet generates a lot of curiosity and gives an opportunity to try to follow the initial logical sequences Code Localization . I created aliases in our native language of some function names or code blocks to replace their original English names as a way to engage Non-English speakers during presentations. let pista1 = d1 pista2 = d2 sonido = sound cada_tanto = sometimes despacito = slow 4 primeros_8 = run 8 empezar_desde = begin pista1 $ sonido \"bombo tacho\" # comprimir 0.2 pista2 $ cada_tanto despacito $ primeros_8 $ sonido \"numbers\" # empezar_desde 0.2 Displaying the code written in native language draws attention, eliminates the difficulty of the language barrier and focuses attention on what the code is really about. First Prototype Initially I wrote a haskell function to map 7 emojis to 7 different samples in tidalcycles’ livecoding environment. In this first proof of concept the emojis were not received but rather typed in the Atom editor (thanks to the autocomplete-emojis package) Emojis mapping function in Tidalcycles emoji x = sound ( fromString $ concatMap ( \\ c ) -> if c == '💚' then s \"bd:6\" else if c == '✊' then s \"sn:4\" else if c == '😬' then s \"dr\" else if c == '😎' then s \"dr:1\" else if c == '👄' then s \"feel:1\" else if c == '💋' then s \"kiss:2\" else if c == '😘' then s \"kiss\" else if c == '😸' then s \"cat\" ) d1 $ emoji \"💚(3,8) ✊*2\" Including Telegram I thought then that it would be fun to receive the emojis from the public, so I created a Telegram bot to interact with the audience. I developed an Atom plugin to handle messages received by the bot. These messages are automatically inserted by the plugin in certain positions of the editor. They remain occupied for 30 seconds by the same person. A countdown urged them to continue the game by updating the pattern or risk that someone else takes their place. The bot starts the conversation with a message explaining the rules of the game Upon receipt of a message, the bot would include it in the presentation and a possible tidalcycles pattern translation of the message would be responded to the sender. Including Facebook As I usually streamed the performance through Facebook, several people who did not knew about Telegram sent me the emojis via facebook chat. I understood that it would be a simpler process for the audience to participate by using those Facebook messages rather than asking them to install Telegram and write to the bot. So, I wrote a Chrome extension that would scrape the Facebook page looking for messages containing emojis in the streaming chat and send them back to the Atom plugin via websockets. You can see the comment by Damian Silvani appear in streaming video, next to his name In this way, a spectator, present in the audience or following the stream remotely, could send an “emoji algorithm” via Telegram or via Facebook and see the contribution next to his or her user name projected (or streamed) live. Eventually, even someone without any livecoding experience could relate the pattern of emojis sent with the pattern of sounds being generated by that intervention. This last point would be an educational path of minimum difficulty with the objective of introducing someone to the idea of programming applied to art. Including Reactive Visuals Once the interaction with the spectator was completed, I continued to develop a better graphic representation of the patterns with the intention of making it even clearer and more attractive. I included in the session a 3D scenario that runs as background to the editor and that responds visually to each sound event generated by the emoji patterns. This further facilitates the relationship between the sent emojis and the generated sounds. About emoji to sample mapping It is not possible to foresee the emojis that I would receive. Initially I took the decision of using the unicode value of the emoji as the index to be played from a folder of samples (strictly speaking, the rest of the division by the number of possible samples). This was comfortable, but not very useful, since the samples were repeated very often and it was not possible to guess the sound to be played. I started working on an alternative. Mapping all existing emojis was too much work. Someone must have made a list of the most popular emojis. I found something much better: emojitracker.com, a site that tracks the emojis used on twitter in real time and ranks them. I then took the most popular emojis and began to do a manual mapping, in a JSON file still in development, in which I grouped them by similarity. /*emojis.json*/ [ [ \"😃😄😅😉😋😍😘😗😙😚\" , \"feel:\" ] , [ \"😐😑😶😏😣😥😮😯😪😫😴😌😛😜😝😒😓😔😕😲\" , \"dr:\" ] , [ \"😖😞😟😤😢😭😦😧😨😩😰😱😳😵😡😠\" , \"feel:\" ] , [ \"😷\" , \"sick\" ] , [ \"😇\" , \"face_role\" ] , [ \"😈👿👹👺💀👻👽👾\" , \"fantasy\" ] , The goal is to achieve a correspondence between what the emoji represents visually and sonorously. Currently, this correspondence is totally arbitrary, for example, 💙💚💛💜 sound like bass drums 👋👏🙌🙏 sound like claps 💪✊💪👊 sound like snare drums 😦😧😱😵 sound like chants This makes it easier to understand how the emoji pattern sent should sound. Anyone can guess that 💚 * 4 is equivalent to 💜 * 4 Future expectations: I plan to continue with the development of these tools and take them to other environments. I have already done some tests on FoxDot. I think they can be highly educational in the field of programming, as an introductory approach and as a means of spreading the practice of livecoding. Due to the experience so far and the possibilities of extending this tool, I envision a new expressive medium to explore. I am working to publish the repositories of these plugins with their respective documentation and instructions with certainty that new and interesting applications will emerge from their disclosure. And above all: to have fun with emoji based music! 😆 <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": [
+        {
+          "src": "/static/2acd17e2b25a8dc98a4e669b905c5928/00d43/cover.png",
+          "srcset": true,
+          "placeholder": false
+        },
+        {
+          "src": "/static/4de89544f375a6f409b04c1ff7d7f2e0/3d026/bot1.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/fe12863d034dc793a1b544e6c697f38e/ca501/bot2.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/b94d15f23d1fc849fca9c2f874d0e638/00d43/fb.png",
+          "srcset": true,
+          "placeholder": true
+        },
+        {
+          "src": "/static/eb45ce86d325df079f8f11912c3abc2d/604ec/visuals.png",
+          "srcset": true,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "path": "es/works/visuals/index.html",
+      "text": "diego dorado - Visuales diego dorado es / en Work | Music | L a b s | Bio Visuales <= all works => Junto a @frenetikvoid , desarrollamos aplicaciones personalizadas para visuales interactivas que pueden controlarse mediante audio, MIDI, OSC y gamepads. Trabajamos en estrecha colaboración con los artistas para hacer que las visuales coincidan con sus expectativas y para preparar algunos mecanismos para recibir datos en vivo de sus sets que podamos usar en la presentación. Trabajamos las visuales principalmente en Unity, además de varios softwares de modelado 3D, MaxMSP y openframeworks. Las demos en HD están aquí , aquí y aquí Un agradecimiento especial a [Keijiro Takahashi] ( https://github.com/keijiro ), que amablemente publicó varios repositorios bien documentados para usar Unity como herramienta de VJing. <= all works => Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "fmtribe/index.html",
+      "text": "FMTRIBE by @munshkr FMTribe by munshkr OPL3 synth/drum machine/thingie focused on live jamming for DOS. Checkout sources . Usage Step Sequencer Instrument Editor Esc : Exit F5 : Play / pause F7 : Stop after bar (2 times, stop immeadiately) F9 : Tap tempo Shift + F9 : Toggle metronome F10 : Toggle \"follow cursor\" Left : Move to previous frame Right : Move to next frame Up : Move to previous channel Down : Move to next channel Del : Clear pattern for current channel Ctrl + Del : Clear pattern for all channels Tab : Switch instrument editor for the current channel M : Toggle \"apply step changes to all frames\" P : Toggle \"play channel instrument\" Z : Toggle \"record steps\" Alt + Number: Mute/unmute channel To toggle a step in the pattern of the 16-step sequencer, use the keys: Q W E R T Y U I A S D F G H J K To select one of the eight channels, use keys 1 through 8. You can mute a channel anytime using Alt + NumberKey. Press Alt + StepKey to define microsteps (upto 3 for now). To customize the parameters of an instrument, press the Tab key, select a field and change its value. The parameters will update automatically if the step sequencer is playing. Left / Right : Increase/decrease value for the current field Up / Down : Move between parameter fields Also, you can still change channels with the numbers from the instrument editor. To change the base note of the instrument, use the keys: W E T Y U A S D F G H J as in a keyboard of one octave. To change the base octave, use PageUp / PageDown . Start!",
+      "images": []
+    },
+    {
+      "path": "index.html",
+      "text": "diego dorado - home diego dorado es / en Work | Music | L a b s | Bio Beauty will be convulsive or will not be at all. André Breton",
+      "images": []
+    },
+    {
+      "path": "live-emojing-presentation/en/index.html",
+      "text": "Live-Emojing Live-Emojing 😎 a livecoding technique to include the audience. About me (IG/FB: @diegdorado ) I'm Diego Dorado, programmer and electronic artist from Argentina. I am passionate about research projects that combines technological innovation with artistic expressions . As a creative coder, I have worked with microcontrollers, videogames, AR/VR, fulldome, audiovisuals, live coding, data sonification and e-textiles. Live-Emojing 🤔 How is that? People sends 😎😱🤖 from their 📱 These 😎😱🤖 gets into the code editor 📟👾 And modify the music we code alltogether 🎹🎷🎉😂🎊 Why emojis? Very familiar Antinatural in Code Language-less I found in Emojis a key to attract the public to reading the code, It’s appeal comes as a result of it being both a very familiar element and at the same time very antinatural to programming languages. This contrast makes it stand out. Emojis communicate quickly, easily and make no language distinction Advertising (?) If you haven't, install Telegram. Search for this bot: @tidalfun_bot (you'll see why shortly) Interests Audience Participation Everyone can Code Code can be a social activity Besides my interest in having the audience participate in the performance, I have the intention of bringing down the idea that programming is inaccessible. Socializing the code by inviting the spectator to intervene. How to engage \"Code Reading\"? Font Size Blank Page Code Localization My interest to make the audience take part in the livecoding experience brought to me the idea of “ livecoding with emojis “ I had previously tried to reach out for such interaction by other means. Font Size Enlarging the font to its maximum size so that reading the code would be comfortable to the audience. Larger font size invites us to reading it. d1 $ fast 2 $ stack[ s \"[[swbd ] ]\" # orbit 3 # gain 1.12 # room 0.23, -- n (run 12 ) # s \"tabla2\" # gain 1.1, s \"{feel:2 ~ feel:1* }%6\", note (mono $ \" \"+(cP \"[]\" \"notes\")) # s \"midi\" # midichan \"0\" , jux (rev) $ slow 4 $ striate' \"24 48\" 0.2 $ s \"chant\" # n (cP \"[0]\" \"notes\") # shape 0.6 # orbit 1 # delay 0.5 # delayt 0.33 # delayfb 0.4, -- (every 4 (fast 1.5)) $ s \"{feel:2 ~ feel:1 }%12\", -- note (scale \"ritusen\" (\"0(8,12)\"+(slow 5 $ run 8)+7+(irand 4))) # s \"midi\" # midichan \"[4,8]\" , -- note (scale \"ritusen\" (\"[0*4]\"+(irand 8))) # s \"midi\" # midichan \"4\" # sus 0.2 # gain 0.8, $\"0(8,12)\"+(cP \"[]\" \"notes\"))) # s \"midi\" # midichan \"5\" , s \"~\" ] |*| gain 0.3 vs d1 $ s \"bd sd\" d2 $ s \"hh*4\" # cutoff 2500 Blank Page Starting out from a blank page with simple sequences that were easy to relate to the audio being generated and gradually becoming more complex. The blank sheet generates a lot of curiosity and gives an opportunity to try to follow the initial logical sequences d1 d1 $ sound \"bd\" d1 $ sound \"bd(3,8)\" d1 $ sound \"bd(3,8) sd\" d1 $ sound \"bd(3,8) sd*2\" d1 $ every 4 (fast 2) $ sound \"bd(3,8) sd*2\" Code Localization I created aliases in our native language of some function names or code blocks to replace their original English names as a way to engage Non-English speakers during presentations. Displaying the code written in native language draws attention, eliminates the difficulty of the language barrier and focuses attention on what the code is really about. let pista1 = d1 pista2 = d2 sonido = sound cada_tanto = sometimes despacito = slow 4 primeros_8 = run 8 empezar_desde = begin comprimir = shape cortar = cut \"1\" pista1 $ sonido \"bombo tacho\" # comprimir 0.2 pista2 $ cada_tanto despacito $ primeros_8 $ sonido \"numbers\" # empezar_desde 0.2 # comprimir 0.7 # cortar Proof of Concept emoji x = sound (fromString $ concatMap (\\c) -> if c == '💚' then s \"bd:6\" else if c == '✊' then s \"sn:4\" else if c == '😬' then s \"dr\" else if c == '😎' then s \"dr:1\" else if c == '👄' then s \"feel:1\" else if c == '💋' then s \"kiss:2\" else if c == '😘' then s \"kiss\" else if c == '😸' then s \"cat\" ) d1 $ emoji \"💚(3,8) ✊*2\" Initially I wrote a haskell function to map 7 emojis to 7 different samples in tidalcycles’ livecoding environment. In this first proof of concept the emojis were not received but rather typed in the Atom editor (thanks to the autocomplete-emojis package)Emojis mapping function in Tidalcycles Demo Let's see a short demo. d1 $ sound \"[💚(3,8),✊ 👊*2]\" Emoji Mapping //emojis.json [ [\"💚\",\"bd\"], [\"💪✊👊\",\"feel:\"], [\"😨😩😰😱😵\",\"chant:\"], //... d1 $ sound \"[💚(3,8),✊ 👊*2]\" -- turns into d1 $ sound \"[[bd](3,8),[feel:1] [feel:2]*2]\" Some emojis aren't mapped to sounds My emojis are outdated (from 2016) Send and Emoji telegram: @tidalfun_bot facebook: facebook.com/diegdorado/ Your message will appear in the editor I'll try to get your profile pic There is a 30'' countdown Get prepared 👍👈👉👆👇 Bonus 🤖 Bot dixit: To give you inspiration, I'll tell you a well known story 👧😯🐇🕐🏃⚫🌳 Enough Talking... 😴 Let's start live-emojing! 🐙",
+      "images": []
+    },
+    {
+      "path": "live-emojing-presentation/es/index.html",
+      "text": "Live-Emojing Live-Emojing 😎 una técnica de livecoding para participar a la audiencia. Sobre mi (IG/FB: @diegdorado ) Soy Diego Dorado, live coder, programador y artista electrónico . Me apasionan los proyectos de investigación que combinan innovación tecnológica con expresiones artísticas . Como programador creativo, he trabajado con microcontroladores, videojuegos, AR / VR, fulldome, audiovisuales, codificación en vivo, sonificación de datos y e-textiles. Live-Emojing 🤔 ¿Cómo es eso? La gente envía 😎😱🤖 desde sus 📱 Estos 😎😱🤖 se insertan en el editor de texto 📟👾 Y modifican la música que codeamos entre todos 🎹🎷🎉😂🎊 ¿Por qué emojis? Muy familiares Antinaturales en el código No tiene idioma Encontré en los emojis la clave para atraer al público a leer código. Su atractivo surge de ser un elemento muy familiar y al mismo tiempo muy antinatural en los lenguajes de programación. Este contraste lo hace destacar. Los emojis comunican rápida y fácilmente, y no hacen distinción de idioma. Advertising (?) If you haven't, install Telegram. Search for this bot: @tidalfun_bot (you'll see why shortly) --> Intereses Participación de la audiencia Todos podemos codear Codear puede ser una actividad social Además de mi interés en que el público participe en la presentación, tengo la intención de derribar la idea de que la programación es inaccesible. Socializar el código invitando al espectador para intervenir. ¿Cómo facilitar la lectura de código? Tamaño de fuente Página en blanco Castellanización del código My interest to make the audience take part in the livecoding experience brought to me the idea of “ livecoding with emojis “ I had previously tried to reach out for such interaction by other means. Tamaño de fuente Enlarging the font to its maximum size so that reading the code would be comfortable to the audience. Larger font size invites us to reading it. d1 $ fast 2 $ stack[ s \"[[swbd ] ]\" # orbit 3 # gain 1.12 # room 0.23, -- n (run 12 ) # s \"tabla2\" # gain 1.1, s \"{feel:2 ~ feel:1* }%6\", note (mono $ \" \"+(cP \"[]\" \"notes\")) # s \"midi\" # midichan \"0\" , jux (rev) $ slow 4 $ striate' \"24 48\" 0.2 $ s \"chant\" # n (cP \"[0]\" \"notes\") # shape 0.6 # orbit 1 # delay 0.5 # delayt 0.33 # delayfb 0.4, -- (every 4 (fast 1.5)) $ s \"{feel:2 ~ feel:1 }%12\", -- note (scale \"ritusen\" (\"0(8,12)\"+(slow 5 $ run 8)+7+(irand 4))) # s \"midi\" # midichan \"[4,8]\" , -- note (scale \"ritusen\" (\"[0*4]\"+(irand 8))) # s \"midi\" # midichan \"4\" # sus 0.2 # gain 0.8, $\"0(8,12)\"+(cP \"[]\" \"notes\"))) # s \"midi\" # midichan \"5\" , s \"~\" ] |*| gain 0.3 vs d1 $ s \"bd sd\" d2 $ s \"hh*4\" # cutoff 2500 Página en blanco Starting out from a blank page with simple sequences that were easy to relate to the audio being generated and gradually becoming more complex. The blank sheet generates a lot of curiosity and gives an opportunity to try to follow the initial logical sequences d1 d1 $ sound \"bd\" d1 $ sound \"bd(3,8)\" d1 $ sound \"bd(3,8) sd\" d1 $ sound \"bd(3,8) sd*2\" d1 $ every 4 (fast 2) $ sound \"bd(3,8) sd*2\" Castellanización del código I created aliases in our native language of some function names or code blocks to replace their original English names as a way to engage Non-English speakers during presentations. Displaying the code written in native language draws attention, eliminates the difficulty of the language barrier and focuses attention on what the code is really about. let pista1 = d1 pista2 = d2 sonido = sound cada_tanto = sometimes despacito = slow 4 primeros_8 = run 8 empezar_desde = begin comprimir = shape cortar = cut \"1\" pista1 $ sonido \"bombo tacho\" # comprimir 0.2 pista2 $ cada_tanto despacito $ primeros_8 $ sonido \"numbers\" # empezar_desde 0.2 # comprimir 0.7 # cortar Prueba de Concepto emoji x = sound (fromString $ concatMap (\\c) -> if c == '💚' then s \"bd:6\" else if c == '✊' then s \"sn:4\" else if c == '😬' then s \"dr\" else if c == '😎' then s \"dr:1\" else if c == '👄' then s \"feel:1\" else if c == '💋' then s \"kiss:2\" else if c == '😘' then s \"kiss\" else if c == '😸' then s \"cat\" ) d1 $ emoji \"💚(3,8) ✊*2\" Initially I wrote a haskell function to map 7 emojis to 7 different samples in tidalcycles’ livecoding environment. In this first proof of concept the emojis were not received but rather typed in the Atom editor (thanks to the autocomplete-emojis package)Emojis mapping function in Tidalcycles Demo Hagamos una breve demostración. d1 $ sound \"[💚(3,8),✊ 👊*2]\" Mapeo de emojis //emojis.json [ [\"💚\",\"bd\"], [\"💪✊👊\",\"feel:\"], [\"😨😩😰😱😵\",\"chant:\"], //... d1 $ sound \"[💚(3,8),✊ 👊*2]\" -- se vuelve d1 $ sound \"[[bd](3,8),[feel:1] [feel:2]*2]\" Some emojis aren't mapped to sounds My emojis are outdated (from 2016) Envíen emojis diegdorado.com/le Tu mensaje aparecerá en el editor Usaré tu imagen de perfil Tenés el espacio por 30'' Prepárense 👍👈👉👆👇 Suficiente charla... 😴 Hagamos live-emojing! 🐙",
+      "images": []
+    },
+    {
+      "path": "map-h/index.html",
+      "text": "map-H (música asistida por Humano) map-H (música asistida por Humano) LOADING... Warming up",
+      "images": []
+    }
+  ]
+}

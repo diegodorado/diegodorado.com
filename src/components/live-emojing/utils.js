@@ -1,6 +1,6 @@
-import GraphemeSplitter from 'grapheme-splitter'
+import Graphemer from 'graphemer'
 
-export const splitter = new GraphemeSplitter()
+export const splitter = new Graphemer()
 
 const operators = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '/', '', '[', ']', '(', ')', '<', '>', '{' ,'}' ,'?' ,'@', '~', '!' , '%',' ', ',' ]
 

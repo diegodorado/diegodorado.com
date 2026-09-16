@@ -1,4 +1,3 @@
-import raf from 'raf'
 import React, { Component } from 'react'
 import './index.sass'
 
@@ -45,7 +44,9 @@ class CyclicFade extends Component {
           last = timestamp
         }
       }
-      raf(animate)
+      if (typeof requestAnimationFrame === 'function') {
+        requestAnimationFrame(animate)
+      }
     }
     animate()
   }

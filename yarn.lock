@@ -1638,10 +1638,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emoji-mart/data@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@emoji-mart/data@npm:1.1.2"
-  checksum: 10c0/595032fbbd7b646a75490729488f654085b1a80dfb52aa4ec355ec1be304f3fbb3fa7d2b9d6da7b4b609fbf1bcd34df5d9031d9db294d7bf651108df96c0ecd2
+"@emoji-mart/data@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@emoji-mart/data@npm:1.2.1"
+  checksum: 10c0/6784b97bf49a0d3ff110d8447bbd3b0449fcbc497294be3d1c3a6cb1609308776895c7520200be604cbecaa5e172c76927e47f34419c72ba8a76fd4e5a53674b
   languageName: node
   linkType: hard
 
@@ -6123,7 +6123,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "diegodorado@workspace:."
   dependencies:
-    "@emoji-mart/data": "npm:^1.1.2"
+    "@emoji-mart/data": "npm:^1.2.1"
     "@emoji-mart/react": "npm:^1.1.1"
     "@types/node": "npm:^22.20.3"
     "@types/react": "npm:^18.3.31"

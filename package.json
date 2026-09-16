@@ -30,7 +30,6 @@
     "gatsby-plugin-sharp": "^5.16.0",
     "gatsby-remark-copy-linked-files": "^6.16.0",
     "gatsby-remark-embed-video": "^3.2.1",
-    "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-images": "^7.16.0",
     "gatsby-remark-prismjs": "^7.16.0",
     "gatsby-remark-responsive-iframe": "^6.16.0",
@@ -53,7 +52,8 @@
     "simpleddp": "^2.0.0",
     "startaudiocontext": "^1.2.1",
     "tone": "^15.1.22",
-    "twemoji-parser": "14.0.0"
+    "twemoji-parser": "14.0.0",
+    "unist-util-visit": "^4"
   },
   "devDependencies": {
     "@types/node": "^22.20.3",

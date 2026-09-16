@@ -67,10 +67,10 @@ const config: GatsbyConfig = {
             },
           },
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: './src/plugins/remark-external-links',
             options: {
               target: '_blank',
-              rel: 'nofollow',
+              rel: 'nofollow noopener',
             },
           },
           {

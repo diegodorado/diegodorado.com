@@ -3338,13 +3338,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/reactjs-localstorage@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@types/reactjs-localstorage@npm:1.0.2"
-  checksum: 10c0/6e36e0b1ca5578d4d3373ea495d9fed537590344c1a8c0381c0cf28e93e177f2d7439192c6c9de796b94ffaebf8dc4808eeae570e7d2482327ddcdbd3db588f4
-  languageName: node
-  linkType: hard
-
 "@types/responselike@npm:^1.0.0":
   version: 1.0.3
   resolution: "@types/responselike@npm:1.0.3"
@@ -6152,7 +6145,6 @@ __metadata:
     "@types/node": "npm:^22.20.3"
     "@types/react": "npm:^18.3.31"
     "@types/react-dom": "npm:^18.3.1"
-    "@types/reactjs-localstorage": "npm:^1.0.2"
     emoji-mart: "npm:^5.6.0"
     gatsby: "npm:^5.16.1"
     gatsby-plugin-google-fonts: "npm:^1.0.1"
@@ -6181,7 +6173,6 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-i18next: "npm:^17.0.14"
     react-icons: "npm:^5.7.0"
-    reactjs-localstorage: "npm:1.0.1"
     sass: "npm:~1.79.0"
     simpleddp: "npm:^2.0.0"
     startaudiocontext: "npm:^1.2.1"
@@ -13560,13 +13551,6 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
-  languageName: node
-  linkType: hard
-
-"reactjs-localstorage@npm:1.0.1":
-  version: 1.0.1
-  resolution: "reactjs-localstorage@npm:1.0.1"
-  checksum: 10c0/0c34bcbbf8175f1b9919b0860018874bb79e9103d675582963705b5b601b1b112c85708392baf30b596505b258b579b6b103f07be14899e37e6ed18cad2d8256
   languageName: node
   linkType: hard
 

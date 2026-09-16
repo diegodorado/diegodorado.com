@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext} from "react"
-import {reactLocalStorage} from 'reactjs-localstorage'
+import {get, set} from './storage'
 import LiveEmojingContext from './context.js'
 
 const Avatar = () =>{
@@ -8,9 +8,9 @@ const Avatar = () =>{
   const [understandsAvatarClick, setUnderstandsAvatarClick] = useState(false)
 
   useEffect(()=>{
-    const url = reactLocalStorage.get('avatarUrl', '')
+    const url = get('avatarUrl', '')
     changeAvatarUrl(url)
-    const understands = (reactLocalStorage.get('understandsAvatarClick', 'false')==='true')
+    const understands = (get('understandsAvatarClick', 'false')==='true')
     setUnderstandsAvatarClick(understands)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
@@ -25,7 +25,7 @@ const Avatar = () =>{
     setLoadingAvatar(true)
     const img = new Image()
     img.onload = () => {
-      reactLocalStorage.set('avatarUrl', url)
+      set('avatarUrl', url)
       context.setAvatarUrl(url)
       setLoadingAvatar(false)
     }
@@ -38,7 +38,7 @@ const Avatar = () =>{
 
     changeAvatarUrl()
     //hides help and save setting
-    reactLocalStorage.set('understandsAvatarClick', true)
+    set('understandsAvatarClick', true)
     setUnderstandsAvatarClick(true)
   }
 

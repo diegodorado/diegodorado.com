@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, {useState, useEffect, useContext} from "react"
-import {reactLocalStorage} from 'reactjs-localstorage'
+import {get, set} from './storage'
 import LiveEmojingContext from './context'
 import randomNick from './random-nicks'
 import {useTranslation } from 'react-i18next'
@@ -14,14 +14,14 @@ const Nick = () =>{
   const [understandsNameClick, setUnderstandsNameClick] = useState(false)
 
   useEffect(()=>{
-    const nick = reactLocalStorage.get('nick', randomNick())
+    const nick = get('nick', randomNick())
     if(nick!==''){
       context.setNick(nick)
       setValid(true)
       setConfirmed(true)
     }
 
-    const understands = (reactLocalStorage.get('understandsNameClick', 'false')==='true')
+    const understands = (get('understandsNameClick', 'false')==='true')
     setUnderstandsNameClick(understands)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
@@ -37,13 +37,13 @@ const Nick = () =>{
     e.preventDefault()
     setConfirmed(false)
     //hides help and save setting
-    reactLocalStorage.set('understandsNameClick', true)
+    set('understandsNameClick', true)
     setUnderstandsNameClick(true)
   }
 
   const confirm = () => {
     if(valid){
-      reactLocalStorage.set('nick', context.nick)
+      set('nick', context.nick)
       setConfirmed(true)
     }
   }

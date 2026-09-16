@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState, useEffect, useContext } from 'react'
-import { reactLocalStorage } from 'reactjs-localstorage'
+import { get, set } from './storage'
 
 import data from '@emoji-mart/data'
 import Picker from '@emoji-mart/react'
@@ -65,13 +65,13 @@ const Playground = ({ pattern }) => {
 
     //todo: open play alone when pattern is on url
     //got pattern from url?
-    //setLeft( pattern ? pattern : reactLocalStorage.get('pattern', randomPattern()))
+    //setLeft( pattern ? pattern : get('pattern', randomPattern()))
     setLeft((left) =>
-      pattern ? pattern : reactLocalStorage.get('pattern', randomPattern())
+      pattern ? pattern : get('pattern', randomPattern())
     )
 
     setShowInstructions(
-      reactLocalStorage.get('showInstructions', 'true') === 'true'
+      get('showInstructions', 'true') === 'true'
     )
 
     document.addEventListener('fullscreenchange', onFullScreenChange)
@@ -265,13 +265,13 @@ const Playground = ({ pattern }) => {
   const onHideInstructionsClick = (e) => {
     e.preventDefault()
     e.stopPropagation()
-    reactLocalStorage.set('showInstructions', false)
+    set('showInstructions', false)
     setShowInstructions(false)
   }
 
   const onToggleHelpClick = (e) => {
     e.preventDefault()
-    reactLocalStorage.set('showInstructions', !showInstructions)
+    set('showInstructions', !showInstructions)
     setShowInstructions(!showInstructions)
   }
 
@@ -279,7 +279,7 @@ const Playground = ({ pattern }) => {
     if (error) return
 
     const p = left + right
-    reactLocalStorage.set('pattern', p)
+    set('pattern', p)
     //fixme: what is this for???
     setPrevPattern(p)
 

@@ -1,0 +1,43 @@
+---
+/**
+ * Brand (brand.js port): SSR text stays "diego dorado"; the leetspeak
+ * character-swap animation runs client-side via an inline script — no React,
+ * no whole-page hydration (D6).
+ */
+import { localizePath, type Locale } from '../../lib/locale'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+---
+
+<h1><a href={localizePath('/', locale)}>diego dorado</a></h1>
+
+<script is:inline>
+  ;(() => {
+    const swaps = [['i', '1'], ['e', '3'], ['o', '0'], ['g', '6'], ['a', '4']]
+    const el = document.querySelector('header h1 a')
+    if (!el) return
+    const original = el.textContent
+    let title = original
+    const getDiff = () => {
+      let diff = 0
+      for (let i = 0; i < original.length; i++) {
+        if (title[i] !== original[i]) diff++
+      }
+      return diff
+    }
+    setInterval(() => {
+      const i = Math.floor(Math.random() * swaps.length)
+      let from = Math.round(Math.random())
+      if (getDiff() > 3) from = 1 // too far from the original: restore
+      const to = from ? 0 : 1
+      if (Math.random() < 0.5) {
+        title = title.replace(swaps[i][from], swaps[i][to])
+        el.textContent = title
+      }
+    }, 100)
+  })()
+</script>

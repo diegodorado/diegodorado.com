@@ -4,5 +4,9 @@
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
+[build]
+  command = "yarn build"
+  publish = "dist"
+
 [build.environment]
   NODE_VERSION = "22"

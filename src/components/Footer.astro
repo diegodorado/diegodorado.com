@@ -1,0 +1,33 @@
+---
+/**
+ * Footer (footer.js port): static first-quote per locale — matches the Gatsby
+ * SSR output the oracle captured (the React component later randomized the
+ * quote client-side; static HTML always rendered quotes[locale][0]).
+ */
+import quotes from '../data/quotes.json'
+import type { Locale } from '../data/site'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const quote = quotes[locale][0]
+---
+
+<footer>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <cite>{quote[1]}</cite>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>{quote[0]}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</footer>

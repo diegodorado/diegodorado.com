@@ -1,0 +1,38 @@
+---
+/**
+ * Header (header/index.js port): nav labels keyed at build, active state from
+ * the emitted pathname (Gatsby PLink: location.pathname.includes(to)), and
+ * locale-prefixed plain anchors (link.js port).
+ */
+import { localizePath, t, type Locale } from '../../lib/locale'
+import Brand from './Brand.astro'
+import LanguagesLinks from './LanguagesLinks.astro'
+import SocialLinks from './SocialLinks.astro'
+
+interface Props {
+  locale: Locale
+  pathname: string
+}
+
+const { locale, pathname } = Astro.props
+
+const active = (to: string) => (pathname.includes(to) ? 'active' : '')
+---
+
+<header>
+  <Brand locale={locale} />
+  <div class="nav">
+    <nav>
+      <SocialLinks />
+      <LanguagesLinks locale={locale} pathname={pathname} />
+    </nav>
+    <nav class="main">
+      <a class={active('/work')} href={localizePath('/work', locale)}>{t(locale, 'Work')}</a>|
+      <a class={active('/music')} href={localizePath('/music', locale)}>{t(locale, 'Music')}</a>|
+      <a class={`labs ${active('/labs')}`} href={localizePath('/labs', locale)}>
+        <i>L</i><i>a</i><i>b</i><i>s</i>
+      </a>
+      |<a class={active('/bio')} href={localizePath('/bio', locale)}>{t(locale, 'Bio')}</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,53 @@
+---
+/**
+ * Main layout (main.js port): header/nav/footer as Astro components with
+ * keyed text at build (D6) — no whole-page hydration, no Provider
+ * (i18next context is redundant when text is rendered statically).
+ * The `.sass` entry comes in here, as in the Gatsby layout.
+ */
+import '../styles/app.sass'
+import { site, type Locale } from '../data/site'
+import { DEFAULT_LOCALE } from '../lib/locale'
+import Footer from '../components/Footer.astro'
+import Header from '../components/header/Header.astro'
+
+interface Props {
+  /** Title suffix; "diego dorado - {pageTitle}" (Seo.tsx port). */
+  pageTitle?: string
+  description?: string
+  locale?: Locale
+  pathname?: string
+}
+
+const {
+  pageTitle = '',
+  description = site.description,
+  locale = DEFAULT_LOCALE,
+  pathname = '/',
+} = Astro.props
+const title = pageTitle ? `${site.title} - ${pageTitle}` : site.title
+const hasPageTitle = Boolean(pageTitle)
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {hasPageTitle && <title>{title}</title>}
+    <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <Header locale={locale} pathname={pathname} />
+      <main><slot /></main>
+      <Footer locale={locale} />
+    </div>
+  </body>
+</html>

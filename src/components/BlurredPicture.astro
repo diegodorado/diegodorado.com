@@ -1,0 +1,120 @@
+---
+/**
+ * Image-pipeline wrapper (D4): <Picture> + a blurred low-res placeholder layer.
+ *
+ * Research gate 5.1 (resolved at apply on astro@6.4.8): the pinned
+ * `astro:assets` ImageSharedProps carries NO `placeholder="blurred"` prop and
+ * NO `aspectRatio` prop (verifyOptions/types checked; Astro.CustomImageProps is
+ * an empty interface). This component ships the closest supported equivalent:
+ * a tiny webp variant (getImage, blurBase px wide, low quality) rendered as a
+ * blurred background layer behind the <Picture> — same blur-up behavior the
+ * design D4 placeholder intended, and the oracle's blur evidence is a
+ * background-image asset near the img (D10 inventory) so the audit greps it.
+ *
+ * `ratio` (width/height) reproduces the 1.5 gallery crop without an aspectRatio
+ * prop: with explicit `width`+`height` the sharp getSrcSet computes each
+ * candidate's height from targetWidth/targetHeight and the v6 default service
+ * crops (fit) by default when width+height are given (research Lane 4
+ * verified alternative).
+ */
+import { Picture, getImage } from 'astro:assets'
+import type { ImageMetadata, ImageOutputFormat } from 'astro'
+
+interface Props {
+  src: ImageMetadata
+  alt: string
+  widths?: number[]
+  sizes?: string
+  formats?: ImageOutputFormat[]
+  layout?: 'constrained' | 'fixed' | 'full-width' | 'none'
+  width?: number
+  height?: number
+  fit?: string
+  position?: string
+  /** aspect ratio (width/height) of the crop box — sets the CSS box + blur variant AR */
+  ratio?: number
+  /** base width (px) of the blurred placeholder variant */
+  blurWidth?: number
+  class?: string
+}
+
+const {
+  src,
+  alt,
+  widths,
+  sizes,
+  formats = ['avif', 'webp'],
+  layout,
+  width,
+  height,
+  fit,
+  position,
+  ratio,
+  blurWidth = 32,
+  class: className,
+} = Astro.props
+
+// Blur-up variant: tiny webp at the same AR as the crop box (no distortion),
+// kept as small as possible so it stays a placeholder, not a real image.
+const blur = await getImage({
+  src,
+  width: blurWidth,
+  height: ratio ? Math.max(1, Math.round(blurWidth / ratio)) : undefined,
+  format: 'webp',
+  quality: 20,
+})
+
+const wrapperClass = [
+  'blurred-picture',
+  className,
+  ratio ? 'blurred-picture--ratio' : '',
+]
+  .filter(Boolean)
+  .join(' ')
+const blurStyle =
+  `background-image:url('${blur.src}');` +
+  'background-size:cover;background-position:center;' +
+  'filter:blur(12px);transform:scale(1.04)'
+---
+
+<div class={wrapperClass} style={ratio ? `aspect-ratio:${ratio}` : undefined}>
+  <span class="blurred-picture__layer" aria-hidden="true" style={blurStyle}></span>
+  <Picture
+    src={src}
+    alt={alt}
+    widths={widths}
+    sizes={sizes}
+    formats={formats}
+    layout={layout}
+    width={width}
+    height={height}
+    fit={fit}
+    position={position}
+  />
+</div>
+
+<style>
+  .blurred-picture {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  .blurred-picture__layer {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    /* the low-res variant upscaled + blurred: the blur-up effect */
+    filter: blur(12px);
+    transform: scale(1.04);
+  }
+  .blurred-picture :global(picture) {
+    position: relative;
+    z-index: 1;
+    display: block;
+  }
+  .blurred-picture--ratio :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>

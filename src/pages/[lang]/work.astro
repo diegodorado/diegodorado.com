@@ -3,13 +3,16 @@
  * /{lang}/work (work.js port, D2/D3): Intro + "Recent works:" + the works
  * listing built from the `works` collection — index works whose locale matches
  * the page (or locale-agnostic), date DESC, as Gatsby's work.js query did.
- * Cover images land in the imagery slice (3) — the 3 empty filler articles
- * that line up the grid stay until then.
+ * Covers are FIXED 320x320 (gatsbyImageData(width: 320, height: 320,
+ * layout: FIXED) — the spec's "fixed at 320x320") with webp/avif + blurred
+ * placeholder (task 3.1); the 3 empty filler articles that line up the grid
+ * stay (Gatsby parity).
  */
 import Main from '../../layouts/Main.astro'
 import { getCollection } from 'astro:content'
 import { deriveWorks } from '../../lib/routes'
 import { localizePath, localeParams, t } from '../../lib/locale'
+import BlurredPicture from '../../components/BlurredPicture.astro'
 
 export async function getStaticPaths() {
   return localeParams()
@@ -32,6 +35,17 @@ const list = deriveWorks(works)
     {list.map((w) => (
       <article>
         <a href={localizePath(w.slug, lang)}>
+          {w.entry.data.cover ? (
+            <BlurredPicture
+              src={w.entry.data.cover}
+              alt={w.entry.data.description ?? w.entry.data.title}
+              widths={[320]}
+              sizes="320px"
+              layout="fixed"
+              width={320}
+              height={320}
+            />
+          ) : null}
           <h3>{w.entry.data.title}</h3>
           {w.entry.data.description ? <p>{w.entry.data.description}</p> : null}
         </a>

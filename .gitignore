@@ -1,6 +1,8 @@
 node_modules/
 .cache/
 public
+dist/
+.astro/
 src/gatsby-types.d.ts
 
 # Local AI runtime state

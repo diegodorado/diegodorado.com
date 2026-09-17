@@ -1,0 +1,40 @@
+---
+/**
+ * /{lang}/labs/ada (labs/ada.js port): A.D.A. weaving algorithm simulator.
+ */
+import Main from '../../../layouts/Main.astro'
+import { localeParams, t } from '../../../lib/locale'
+import AdaWeaves from '../../../components/labs/AdaWeaves.jsx'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+const rules = [
+  18, 22, 26, 30, 45, 54, 60, 73, 82, 90, 106, 106, 109, 110, 122, 126, 129,
+  146, 150, 154, 195,
+]
+---
+
+<Main pageTitle="ADA elementary cellular automaton" locale={lang} pathname={`/${lang}/labs/ada`}>
+  <div class="ada-algorithm">
+    <h3>{t(lang, 'A.D.A. weaving algorithm.')}</h3>
+    <p set:html={t(lang, 'about-ada').replace('<0>', '<a href="/' + lang + '/works/ada">').replace('</0>', '</a>')}></p>
+    <p set:html={t(lang, 'elementary-cellular-automaton').replace('<1>', '<a href="/' + lang + '/works/ada">').replace('</1>', '</a>').replace('<3>', '<a href="https://en.wikipedia.org/wiki/Elementary_cellular_automaton" target="_blank" rel="noreferrer">').replace('</3>', '</a>')}></p>
+    <p set:html={t(lang, 'algorithm-explanation').replace('<1>', '<strong>').replace('</1>', '</strong>')}></p>
+    <p>{t(lang, 'those-rules-are').replace('{{rules}}', '#' + rules.join(', #'))}</p>
+    <p>{t(lang, 'keep-weaving')}</p>
+    <AdaWeaves client:visible />
+  </div>
+</Main>
+
+<style is:global>
+  .ada-canvas {
+    image-rendering: pixelated;
+    width: 100%;
+    max-width: 480px;
+    display: block;
+    margin: 1rem 0;
+  }
+</style>

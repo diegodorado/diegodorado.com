@@ -64,6 +64,14 @@ const TEXT_MODE = {
   'es/works/live-coding': 'structure',
   'es/works/live-emojing': 'structure',
   'es/works/visuals': 'structure',
+  'en/labs': 'alnum',
+  'es/labs': 'structure',
+  'en/labs/ada': 'alnum',
+  'es/labs/ada': 'structure',
+  'en/labs/live-emojing': 'alnum',
+  'es/labs/live-emojing': 'structure',
+  'en/labs/live-emojing-midi': 'alnum',
+  'es/labs/live-emojing-midi': 'structure',
 }
 const SLICE_ROUTES = new Set(Object.keys(TEXT_MODE))
 // English-token allowlist for structure mode: tokens that legitimately appear
@@ -79,6 +87,8 @@ const ALLOWED_EN = {
   'es/works/i-o/presentation': ['work'],
   'es/works/lhcvmm': ['music', 'work'],
   'es/works/live-emojing': ['work', 'music'],
+  'es/labs/live-emojing': ['music', 'emojis'],
+  'es/labs/live-emojing-midi': ['music', 'emojis'],
 }
 // Dist-only token allowlist for alnum mode. Gatsby's old remark render dropped
 // the `tidal¬` / `js¬` prefixes of live-emojing's inline-code heading lines,

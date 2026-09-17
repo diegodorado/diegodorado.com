@@ -14,9 +14,9 @@ const ROOT = new URL('..', import.meta.url).pathname
 const DIST = join(ROOT, 'dist')
 const SNAPSHOT = join(ROOT, 'scripts/oracle/snapshot.json')
 
-// Later-phase route patterns, absent until their slice lands. Slice 2 covers
-// everything but the labs pages (slice 3+): works posts + listing are in.
-const LATER_PHASE = [/^(en|es)\/labs(\/|$)/]
+// Later-phase route patterns, absent until their slice lands.
+// All slices complete — no pending later-phase routes.
+const LATER_PHASE = []
 
 // Normalize an emitted HTML path to a route key shared with the oracle.
 //   "index.html"            -> ""

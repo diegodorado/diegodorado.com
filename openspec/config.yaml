@@ -1,0 +1,67 @@
+# openspec/config.yaml — SDD project config for diegodorado.com
+schema: spec-driven
+
+projects:
+  - path: .
+    stack: Gatsby 5.16 / React 18.3 / TypeScript 5.9 strict / Sass 1.79 indented (.sass)
+    test_command: ""
+    test_framework: ""
+    coverage_command: ""
+    lint_command: ""
+    typecheck_command: "yarn typecheck"
+    formatter_command: ""
+
+context: |
+  diegodorado.com — static personal site: Gatsby 5.16 + React 18.3 + TypeScript 5.9 strict + indented Sass 1.79.
+  Content pipeline is pure gatsby-transformer-remark (NO MDX) with 7 plugins; images run through
+  gatsby-plugin-image + sharp (FIXED 320 covers, FULL_WIDTH gallery, blur-up LQIP by default).
+  i18n is content-level: gatsby-node.js duplicates pages into /en|/es, locale from filename, prev/next
+  index over canonical works slugs.
+  Deploy: Netlify static; netlify.toml carries headers + NODE_VERSION=22 only — build command lives in
+  the Netlify UI, not the repo.
+  Quality: the only gate is yarn typecheck (strict; allowJs off, so most .js pages are unchecked).
+  No test runner, no linter, no formatter.
+
+strict_tdd: false
+
+testing:
+  tdd: false                        # no-runner fallback — single project has no workspace-level test command
+  test_command: ""                  # package.json scripts: local, start, build, serve, clean, typecheck
+  layers:
+    unit: false
+    integration: false
+    e2e: false
+  coverage_command: ""
+  quality:
+    linter: false                   # eslint binary present transitively via gatsby, but no config/script
+    typecheck: "yarn typecheck"     # tsc --noEmit, strict; covers .ts/.tsx only (allowJs off)
+    formatter: false                # no prettier binary/config installed
+
+rules:
+  proposal:
+    - State Netlify deploy impact: the build command must be repatriated into netlify.toml, or the migrated repo silently keeps building the old stack.
+    - Preserve /en|/es routing parity, the image resize + blur-up pipeline, and static/ passthrough + _redirects.
+    - Include a rollback plan for risky changes.
+  specs:
+    - Use Given/When/Then scenarios with RFC 2119 keywords (MUST, SHALL, SHOULD, MAY).
+    - Cover route/slug parity (unlocalized vs localized slugs, canonical main-works prev/next index) and every image variant (FIXED 320 covers, FULL_WIDTH pics, maxWidth 1000 remark images).
+    - Cover markdown micro-syntax: `video:` embed shorthand, prismjs `¬` inline marker, tidal->haskell alias, external-links decoration.
+  design:
+    - Document architecture decisions with rationale, including the remark plugin port mapping and the locale/slug reproduction from gatsby-node.js.
+    - Keep indented (.sass) styling; remember gatsby-plugin-sass sits on deprecated Dart Sass APIs and breaks on Sass 2.0.
+  tasks:
+    - Group by slice: skeleton+routing parity, content collections, image pipeline, remark/rehype ports, labs islands + deploy config.
+    - Forecast the 400-line review budget — the full migration will exceed it; recommend chained PRs (delivery strategy ask-on-risk).
+    - Keep tasks completable in one session; use hierarchical numbering.
+  apply:
+    guidelines:
+      - Follow existing code patterns (indented .sass, named exports, content in content/, data in src/data/).
+      - Do not invent a test runner; verification is typecheck + build.
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""                # no test runner exists — never assume a green yarn test
+    build_command: "yarn build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas into openspec/specs/.

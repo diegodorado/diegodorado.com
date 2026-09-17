@@ -1,12 +1,14 @@
 ---
 /**
- * LanguagesLinks (languages-links.js port). SSR emits plain hrefs; the
- * client-side navigate() is replaced by real links:
+ * LanguagesLinks (languages-links.js port, D3): SSR emits plain hrefs; the
+ * client-side navigate() is replaced by real links via astro:i18n's
+ * getRelativeLocaleUrl:
  *  - localized pages: prefix-swap between /en/* and /es/*
  *  - non-localized pages (/, 404, app, static leaves): same path, active
  *    class marks the current locale (original changeLanguage-only behavior).
  */
-import { swapLocale, type Locale } from '../../lib/locale'
+import { getRelativeLocaleUrl } from 'astro:i18n'
+import type { Locale } from '../../lib/locale'
 
 interface Props {
   locale: Locale
@@ -14,9 +16,17 @@ interface Props {
 }
 
 const { locale, pathname } = Astro.props
-const alternate = locale === 'en' ? 'es' : 'en'
-const esHref = locale === 'es' ? pathname : swapLocale(pathname, locale)
-const enHref = locale === 'en' ? pathname : swapLocale(pathname, locale)
+
+// Swap the locale prefix on /en|/es-prefixed paths, keep the same path on
+// non-localized pages. getRelativeLocaleUrl resolves paths from the
+// default-locale space (D10), so strip the prefix first.
+const swap = (to: Locale): string =>
+  pathname.startsWith(`/${locale}/`)
+    ? getRelativeLocaleUrl(to, pathname.slice(`/${locale}`.length) || '/')
+    : pathname
+
+const esHref = locale === 'es' ? pathname : swap('es')
+const enHref = locale === 'en' ? pathname : swap('en')
 ---
 
 <a href={esHref} class={locale === 'es' ? 'active' : ''}>es</a>/

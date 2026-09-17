@@ -13,6 +13,7 @@
 import Main from '../../../layouts/Main.astro'
 import { localeParams, t, localizePath } from '../../../lib/locale'
 import BlurredPicture from '../../../components/BlurredPicture.astro'
+import CyclicFade from '../../../components/CyclicFade.astro'
 import type { ImageMetadata } from 'astro'
 
 export function getStaticPaths() {
@@ -104,20 +105,22 @@ const profile =
       </a>
       <br /> <br /> <br />
     </p>
-    <section class="bio-pics">
+    <CyclicFade speed={1500}>
       {pics.map((pic) => (
-        <BlurredPicture
-          src={pic}
-          alt=""
-          widths={[420, 840, 1680]}
-          sizes="100vw"
-          layout="full-width"
-          width={1680}
-          height={1120}
-          ratio={1.5}
-        />
+        <div class="cyclic-fade-child">
+          <BlurredPicture
+            src={pic}
+            alt=""
+            widths={[420, 840, 1680]}
+            sizes="100vw"
+            layout="full-width"
+            width={1680}
+            height={1120}
+            ratio={1.5}
+          />
+        </div>
       ))}
-    </section>
+    </CyclicFade>
     <p>
       {randomPicsBefore}
       <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nicolascroceph">
@@ -129,14 +132,6 @@ const profile =
 </Main>
 
 <style>
-  /* Interim static layout: Phase 5.3 replaces the grid with the cyclic-fade
-     island over the same pictures. */
-  .bio-pics {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 1.25rem;
-    margin-bottom: 1.5rem;
-  }
   .bio-profile {
     margin-bottom: 1.5rem;
   }

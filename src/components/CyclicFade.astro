@@ -1,0 +1,87 @@
+---
+/**
+ * Cyclic-fade gallery (cyclic-fade/index.js port): stacks children with
+ * float/margin-right overlay, fading one at a time. Replicated in vanilla JS
+ * for an Astro island — no React runtime needed.
+ */
+interface Props {
+  speed?: number
+}
+
+const { speed = 1500 } = Astro.props
+---
+
+<div class="cyclic-fade-container" data-speed={speed}>
+  <slot />
+</div>
+
+<script>
+  (function () {
+    const containers = document.querySelectorAll('.cyclic-fade-container')
+    containers.forEach((container) => {
+      const speed = Number((container as HTMLElement).dataset.speed) || 1500
+      const children = container.querySelectorAll('.cyclic-fade-child')
+      if (children.length === 0) return
+      let index = 0
+      let paused = false
+      let last = 0
+      let raf: number | null = null
+
+      const show = (i: number) => {
+        children.forEach((c, idx) => {
+          c.classList.toggle('active', idx === i)
+        })
+      }
+
+      const tick = (timestamp: number) => {
+        if (!last || timestamp - last > speed) {
+          if (!paused) {
+            index = (index + 1) % children.length
+            show(index)
+          }
+          last = timestamp
+        }
+        raf = requestAnimationFrame(tick)
+      }
+
+      container.addEventListener('mouseenter', () => {
+        paused = true
+      })
+      container.addEventListener('mouseleave', () => {
+        paused = false
+      })
+      container.addEventListener('click', (e) => {
+        e.preventDefault()
+        index = (index + 1) % children.length
+        show(index)
+      })
+
+      show(0)
+      raf = requestAnimationFrame(tick)
+    })
+  })()
+</script>
+
+<style is:global>
+  .cyclic-fade-container {
+    cursor: pointer;
+    position: relative;
+  }
+  .cyclic-fade-container::after {
+    content: '';
+    display: table;
+    clear: left;
+  }
+  .cyclic-fade-container .cyclic-fade-child {
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    transition: opacity 1.5s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .cyclic-fade-container .cyclic-fade-child.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+</style>

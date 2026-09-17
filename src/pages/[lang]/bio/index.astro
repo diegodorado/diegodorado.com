@@ -1,0 +1,77 @@
+---
+/**
+ * /{lang}/bio (bio/index.{en,es}.js port): static paragraphs, the CV
+ * online|pdf links, and the `Random pics, by <0>Nicolás Croce</0>.` line
+ * (pics.js text part). BioImage + the cyclic-fade pics grid are images —
+ * image pipeline lands in slice 3.
+ */
+import Main from '../../../layouts/Main.astro'
+import { localeParams, t, localizePath } from '../../../lib/locale'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+
+const randomPicsKey = t(lang, 'Random Pics')
+const randomPicsMatch = randomPicsKey.match(/<0>(.*?)<\/0>/)
+const [randomPicsBefore, randomPicsAfter] = randomPicsKey.split(/<0>.*?<\/0>/)
+// Trans port: the <0>…</0> placeholder becomes the anchor, its inner text
+// the label (e.g. "Nicolás Croce") — never emitted as literal text.
+const croceLabel = randomPicsMatch?.[1] ?? 'Nicolás Croce'
+const isEn = lang === 'en'
+---
+
+<Main pageTitle="bio" locale={lang} pathname={`/${lang}/bio`}>
+  <div class="bio">
+    {/* BioImage renders here (slice 3) */}
+    <p class="spacey">
+      {isEn ? (
+        <>
+          Diego Dorado is a live coder, programmer and electronic artist based in
+          Agentina. He is passionate about research projects that combine
+          technological innovation with artistic expressions.
+          <br />
+          He has worked as an educator, sound designer, composer, video games and
+          web developer.
+          <br /> <br />
+          He has participated in various works of electronic art coding on
+          microcontrollers, videogames, signal processing, audiovisuals, sound
+          data and interactive webs; as well as for different formats: virtual
+          reality, augmented reality, fulldome, mapping, audiovisual performance,
+          sound installations and e-textiles.
+        </>
+      ) : (
+        <>
+          Diego Dorado es live coder, programador y artista electrónico argentino.
+          Le apasionan los proyectos de investigación que combinan innovación
+          tecnológica con expresiones artísticas.
+          <br />
+          Ha trabajado como educador, diseñador sonoro, compositor y como
+          desarrollador web y de videojuegos.
+          <br /> <br />
+          Ha participado en obras de arte electrónico programando para
+          microcontroladores, videojuegos, procesamiento de señales,
+          audiovisuales, sonorización de datos y webs interactivas; así como para
+          diferentes formatos: realidad virtual, realidad aumentada, fulldome,
+          mapping, performance audiovisual, instalaciones sonoras y
+          tecno-textiles.
+        </>
+      )}
+      <br /> <br />
+      Curriculum Vitae: <a href={localizePath('/bio/cv', lang)}>online</a> |{' '}
+      <a target="_blank" rel="noopener noreferrer" href="/es/cv-diego-dorado.pdf">
+        pdf
+      </a>
+      <br /> <br /> <br />
+    </p>
+    <p>
+      {randomPicsBefore}
+      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nicolascroceph">
+        {croceLabel}
+      </a>
+      {randomPicsAfter}
+    </p>
+  </div>
+</Main>

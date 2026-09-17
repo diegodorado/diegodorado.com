@@ -2,3 +2,5 @@
 /es/labs/bingo /bingo
 /en/labs/bingo/ /bingo
 /en/labs/bingo /bingo
+
+/app/* /app/ 200

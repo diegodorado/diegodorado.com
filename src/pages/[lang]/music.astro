@@ -1,0 +1,69 @@
+---
+/**
+ * /{lang}/music (music.js port): MusicIntro sentence with the platform links
+ * and the "o" separator (en.json maps "or" → "o"), followed by the 8 album
+ * bandcamp embeds + the 3 grid-filler articles.
+ */
+import Main from '../../layouts/Main.astro'
+import { localeParams, t } from '../../lib/locale'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+
+const urls = {
+  bandcamp: 'https://diegodorado.bandcamp.com/',
+  spotify: 'https://open.spotify.com/artist/6TiMRef3nqRA74LKQ810t8',
+  apple: 'https://music.apple.com/us/artist/diego-dorado/1495558877',
+  amazon:
+    'https://www.amazon.com/s?k=Diego+Dorado&i=digital-music&search-type=ss&ref=ntt_srch_drd_B084155L66',
+  youtube: 'https://music.youtube.com/channel/UCz6uOhdNUiTAjt1mBzoV-AA',
+  deezer: 'https://www.deezer.com/us/artist/83574592',
+}
+const names = Object.keys(urls)
+const links: Array<{ name: string; href: string }> = Object.entries(urls).map(
+  ([name, href]) => ({ name, href })
+)
+
+// MusicIntro value with the <1></1> placeholder replaced by the links
+// (Trans port): "... here or on <links>, <links> o <links>."
+const intro = t(lang, 'MusicIntro')
+const [before, after] = intro.split('<1></1>')
+
+const colors = 'bgcol=000000/linkcol=ff00ff'
+const albums = [
+  3457420195, 3644547653, 2587024292, 3583596473, 121085935, 1868484386,
+  956909203, 3975334759,
+]
+---
+
+<Main pageTitle={t(lang, 'Music')} locale={lang} pathname={`/${lang}/music`}>
+  <p class="spacey">
+    {before}
+    {links.map((link, i) => (
+      <>
+        <a href={link.href} target="_blank" rel="noopener noreferrer">{link.name}</a>
+        {i < links.length - 2 ? ', ' : i === links.length - 2 ? ` ${t(lang, 'or')} ` : ''}
+      </>
+    ))}
+    {after}
+  </p>
+  <section class="music posts">
+    {albums.map((id) => (
+      <article>
+        <div class="bandcamp">
+          <iframe
+            title={`album ${id}`}
+            src={`https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/${colors}/transparent=true/`}
+            seamless={true}
+          ></iframe>
+        </div>
+      </article>
+    ))}
+    <article></article>
+    <article></article>
+    <article></article>
+  </section>
+</Main>

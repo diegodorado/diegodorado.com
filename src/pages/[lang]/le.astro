@@ -1,0 +1,20 @@
+---
+/**
+ * /{lang}/le (le.js port, D3): full shell + client redirect to the
+ * live-emojing labs route. No Head in the Gatsby source — plain site title.
+ */
+import Main from '../../layouts/Main.astro'
+import { localeParams } from '../../lib/locale'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+---
+
+<Main locale={lang} pathname={`/${lang}/le`} />
+
+<script is:inline>
+  location.replace('/{lang}/labs/live-emojing')
+</script>

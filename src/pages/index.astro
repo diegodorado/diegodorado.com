@@ -1,0 +1,23 @@
+---
+/**
+ * `/` redirect (index.tsx port, D3): empty shell rendered fully (no FOUC)
+ * with an inline browser-language redirect to `/{lang}/work`. SSR locale is
+ * en — the i18next browser detector fell back to en server-side in Gatsby.
+ */
+import Main from '../layouts/Main.astro'
+import { detectLanguage } from '../lib/locale'
+---
+
+<Main pageTitle="home" locale="en" pathname="/">
+  <p style="text-align: center"></p>
+</Main>
+
+<script is:inline>
+  (() => {
+    const lang = (function () {
+      const list = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]).filter(Boolean)
+      return list.find((l) => l.toLowerCase().startsWith('es')) ? 'es' : 'en'
+    })()
+    location.replace('/' + lang + '/work')
+  })()
+</script>

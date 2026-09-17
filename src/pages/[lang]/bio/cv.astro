@@ -1,0 +1,24 @@
+---
+/**
+ * /{lang}/bio/cv (bio/cv.js port): layout + "Download: pdf" footer. The cv
+ * markdown body renders from the `cv` content collection — slice 2.
+ */
+import Main from '../../../layouts/Main.astro'
+import { localeParams } from '../../../lib/locale'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+---
+
+<Main pageTitle="bio" locale={lang} pathname={`/${lang}/bio/cv`}>
+  <div class="cv"><!-- cv body renders here (slice 2) --></div>
+  <p class="spacey">
+    Download:{' '}
+    <a target="_blank" rel="noopener noreferrer" href="/es/cv-diego-dorado.pdf">
+      pdf
+    </a>
+  </p>
+</Main>

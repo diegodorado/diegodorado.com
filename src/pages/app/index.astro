@@ -1,0 +1,14 @@
+---
+/**
+ * /app (app.js port): client-only app shell. The @reach/router Router
+ * rendered nothing server-side except the default NotFound — "Sorry, nothing
+ * here." The /app/* → /app/ rewrite (static/_redirects) serves this page for
+ * every app path.
+ * No pageTitle: the Gatsby page had no Head — plain site title.
+ */
+import Main from '../../layouts/Main.astro'
+---
+
+<Main locale="en" pathname="/app">
+  <div>Sorry, nothing here.</div>
+</Main>

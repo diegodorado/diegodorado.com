@@ -1,0 +1,27 @@
+---
+/**
+ * /{lang}/work (work.js port): Intro + "Recent works:" + empty posts-grid
+ * skeleton. The works list itself (covers, titles, descriptions) is content
+ * from the collections and lands in the next slice — the 3 empty filler
+ * articles that line up the grid stay.
+ */
+import Main from '../../layouts/Main.astro'
+import { localeParams, t } from '../../lib/locale'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+
+const { lang } = Astro.params
+---
+
+<Main pageTitle="work" locale={lang} pathname={`/${lang}/work`}>
+  <p class="spacey">{t(lang, 'Intro')}</p>
+  <p>{t(lang, 'Recent works')}:</p>
+  <section class="posts">
+    {/* works list renders here once content collections land (slice 2) */}
+    <article></article>
+    <article></article>
+    <article></article>
+  </section>
+</Main>

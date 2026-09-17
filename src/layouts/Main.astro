@@ -36,6 +36,12 @@ const hasPageTitle = Boolean(pageTitle)
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {hasPageTitle && <title>{title}</title>}
     <meta name="description" content={description} />
+    {/* Seo.tsx port (siteMetadata): og title/description/type were emitted
+        alongside the above; og:image rendered a broken "…/undefined" URL in
+        Gatsby and is deliberately NOT ported. */}
+    <meta name="og:title" content={title} />
+    <meta name="og:description" content={description} />
+    <meta name="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

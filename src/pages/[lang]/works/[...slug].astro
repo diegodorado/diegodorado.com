@@ -1,0 +1,47 @@
+---
+// /{lang}/works/{...slug} — work-post.js port (D2/D3). Posts come from the
+// `works` collection; pagination (newer `<=` | all works | older `=>`) derives
+// from the canonical main-works index shared by both locale variants. Cover
+// images and the remark/rehype chain land in the imagery/remark slices (3-4).
+import Main from '../../../layouts/Main.astro'
+import { getCollection, render } from 'astro:content'
+import { resolveRoutes } from '../../../lib/routes'
+import { localizePath } from '../../../lib/locale'
+
+export async function getStaticPaths() {
+  const works = await getCollection('works')
+  return resolveRoutes(works).map((r) => ({
+    params: { lang: r.lang, slug: r.segments.join('/') },
+    props: {
+      entry: r.entry,
+      lang: r.lang,
+      prev: r.prev,
+      next: r.next,
+      pathname: r.pathname,
+    },
+  }))
+}
+
+const { entry, lang, prev, next, pathname } = Astro.props
+const { Content } = await render(entry)
+const style = entry.data.style ?? ''
+---
+
+<Main pageTitle={entry.data.title} locale={lang} pathname={pathname}>
+  <div class="work-title">
+    <h2>{entry.data.title}</h2>
+    <nav class="pagination">
+      {next ? <a href={localizePath(next, lang)}>&lt;=</a> : <span>...</span>}{' '}
+      <a href={localizePath('/work', lang)}>all works</a>{' '}
+      {prev ? <a href={localizePath(prev, lang)}>=&gt;</a> : <span>...</span>}
+    </nav>
+  </div>
+  <div class={`${style} work-post`}>
+    <Content />
+  </div>
+  <nav class="pagination">
+    {next ? <a href={localizePath(next, lang)}>&lt;=</a> : <span>...</span>}{' '}
+    <a href={localizePath('/work', lang)}>all works</a>{' '}
+    {prev ? <a href={localizePath(prev, lang)}>=&gt;</a> : <span>...</span>}
+  </nav>
+</Main>

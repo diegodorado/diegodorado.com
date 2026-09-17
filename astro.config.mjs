@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
+import rehypeVideoEmbed from './src/plugins/rehype-video-embed.mjs'
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,6 +20,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    // remark/rehype ports (D5) land in the imagery/remark slice.
+    rehypePlugins: [rehypeVideoEmbed],
+    // Full remark/rehype ports (D5) land in the imagery/remark slice.
   },
 })

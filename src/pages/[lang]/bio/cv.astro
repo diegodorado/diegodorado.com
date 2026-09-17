@@ -1,20 +1,31 @@
 ---
 /**
- * /{lang}/bio/cv (bio/cv.js port): layout + "Download: pdf" footer. The cv
- * markdown body renders from the `cv` content collection — slice 2.
+ * /{lang}/bio/cv (bio/cv.js port, D2/D3): the cv markdown body renders from
+ * the `cv` content collection (`content/cv/cv.{en,es}.md`), selected by the
+ * page locale; the "Download: pdf" footer stays.
  */
 import Main from '../../../layouts/Main.astro'
+import { getCollection, render } from 'astro:content'
 import { localeParams } from '../../../lib/locale'
 
-export function getStaticPaths() {
-  return localeParams()
+export async function getStaticPaths() {
+  const cv = await getCollection('cv')
+  return localeParams().map(({ params }) => {
+    const { lang } = params
+    const entry = cv.find((e) => e.id.replace(/\.md$/, '').endsWith(`.${lang}`))
+    if (!entry) throw new Error(`Missing content/cv/cv.${lang}.md`)
+    return { params, props: { entry, lang } }
+  })
 }
 
-const { lang } = Astro.params
+const { entry, lang } = Astro.props
+const { Content } = await render(entry)
 ---
 
 <Main pageTitle="bio" locale={lang} pathname={`/${lang}/bio/cv`}>
-  <div class="cv"><!-- cv body renders here (slice 2) --></div>
+  <div class="cv">
+    <Content />
+  </div>
   <p class="spacey">
     Download:{' '}
     <a target="_blank" rel="noopener noreferrer" href="/es/cv-diego-dorado.pdf">

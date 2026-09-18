@@ -95,7 +95,7 @@ const rules = [
   146, 150, 154, 195,
 ]
 
-const AdaWeaves = () => {
+const AdaWeaves = ({ embed = false }) => {
   const width = 48
   const height = 48
   const canvasRef = useRef(null)
@@ -162,7 +162,7 @@ const AdaWeaves = () => {
     const draw = () => {
       state.current.tick++
       if (canvasRef.current) {
-        const context = canvasRef.current.getContext('2d')
+        const context = canvasRef.current.getContext('2d', { willReadFrequently: true })
         if (state.current.tick % 60 === 0) {
           draw_rule(context)
           draw_line(context)
@@ -185,6 +185,10 @@ const AdaWeaves = () => {
       cancelAnimationFrame(rafRef.current)
     }
   }, [])
+
+  if (embed) {
+    return <canvas className="ada-canvas" width={width} height={width} ref={canvasRef}></canvas>
+  }
 
   return (
     <div className="ada-algorithm">

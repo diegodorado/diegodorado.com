@@ -1,0 +1,30 @@
+---
+import { localeParams } from '../../../lib/locale'
+import AdaWeaves from '../../../components/labs/AdaWeaves.jsx'
+
+export function getStaticPaths() {
+  return localeParams()
+}
+---
+
+<!doctype html>
+<html lang={Astro.params.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        background: #000;
+      }
+      .ada-canvas {
+        image-rendering: pixelated;
+        width: 100%;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <AdaWeaves embed client:visible />
+  </body>
+</html>

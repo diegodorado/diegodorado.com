@@ -86,7 +86,7 @@ left among technical notes poems like this one:
 
 > "The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves."
 
-<iframe src="/en/labs/ada/?embed" width="100" height="100" style="border:0;overflow:hidden" scrolling="no"></iframe>
+<iframe src="/en/labs/ada-embed" style="width:100%;aspect-ratio:1/1;border:0;" scrolling="no"></iframe>
 
 ---   
 For more information about the algorithm A.D.A use to weave, [follow this link](/en/labs/ada)

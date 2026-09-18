@@ -89,7 +89,7 @@ dejó entre notas técnicas poemas como el siguiente:
 > "La Máquina Analítica teje patrones algebraicos, al igual que el telar Jacquard teje flores y hojas."
 
    
-<iframe src="/es/labs/ada/?embed" width="100" height="100" style="border:0;overflow:hidden" scrolling="no"></iframe>
+<iframe src="/es/labs/ada-embed" style="width:100%;aspect-ratio:1/1;border:0;" scrolling="no"></iframe>
 
 ---   
 Para mas información sobre el algoritmo utilizado por A.D.A. para tejer, [entrar aquí](/es/labs/ada)

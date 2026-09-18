@@ -42,13 +42,13 @@ Presentation at the San Martín Cultural Center, within **Noviembre Electrónico
 The work was selected for the SM2 art-science residency program.
 
 
-`video: https://youtu.be/C7oVKmWanwM`
+<iframe src="https://www.youtube.com/embed/C7oVKmWanwM" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 
 Presentation at the National University of San Martín, in December 2018.  
 The AI side of the project was still in development. But I was anxious to give it a try so here I'm livecoding the machine along with some synths.
 
-`video: https://youtu.be/aoeT3bze25c`
+<iframe src="https://www.youtube.com/embed/aoeT3bze25c" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 ---
 ### Aesthetics

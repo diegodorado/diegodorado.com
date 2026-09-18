@@ -94,4 +94,4 @@ Since its inception, IO was presented in the following venues.
 * 02/19  | La Invisible´´´´´´´´´´ | Montevideo, UR   
 
 
-`video: https://youtu.be/_gTlaWTMAgI`
+<iframe src="https://www.youtube.com/embed/_gTlaWTMAgI" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>

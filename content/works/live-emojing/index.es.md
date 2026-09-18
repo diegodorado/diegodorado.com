@@ -27,17 +27,17 @@ I found in **emojis** a key to attract the public to reading the code. It’s ap
 <br/>
 
 #### First Streaming
-`video: https://youtu.be/OwKUuypxP6Y?t=29m57s`
+<iframe src="https://www.youtube.com/embed/OwKUuypxP6Y?start=1797" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 <br/>
 
 #### #WorldEmojiDay 2018 at [Centro Cultural Recoleta](http://www.centroculturalrecoleta.org/)
-`video: https://youtu.be/6HVmAN7bScQ`
+<iframe src="https://www.youtube.com/embed/6HVmAN7bScQ" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 <br/>
 
 #### VIU Festival at [Hangar.org](https://hangar.org/en/), Barcelona
-`video: https://youtu.be/0BCenu-jz8s`
+<iframe src="https://www.youtube.com/embed/0BCenu-jz8s" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 
 ---

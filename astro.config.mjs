@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
-import rehypeVideoEmbed from './src/plugins/rehype-video-embed.mjs'
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,11 +24,5 @@ export default defineConfig({
     // images. Per-image override via the `layout` prop when needed.
     layout: 'constrained',
     responsiveStyles: true,
-  },
-  markdown: {
-    // rehypePlugins forces Astro to use the unified processor instead of the
-    // default Sätteri. The only plugin we need is the video embed transformer;
-    // image optimisation still works natively under unified.
-    rehypePlugins: [/** @type {any} */ (rehypeVideoEmbed)],
   },
 })

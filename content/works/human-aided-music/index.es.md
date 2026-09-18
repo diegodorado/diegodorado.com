@@ -40,13 +40,13 @@ Seguimos hablando de *bateristas funky* ... pero si logramos transferir las habi
 Presentación en el Centro Cultural San Martín, durante **Noviembre Electrónico 2019**.  
 La obra fue seleccionada para el programa de residencias arte-ciencia SM2.
 
-`video: https://youtu.be/C7oVKmWanwM`
+<iframe src="https://www.youtube.com/embed/C7oVKmWanwM" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 
 Presentación en Universidad Naciona de San Martín, en diciembre 2018.  
 La IA del proyecto aún estaba en desarrollo. Pero estaba ansioso por probarlo, así es que aquí estoy **livecodeando** a Bernardo junto con algunos sintetizadores.
 
-`video: https://youtu.be/aoeT3bze25c`
+<iframe src="https://www.youtube.com/embed/aoeT3bze25c" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 
 ---

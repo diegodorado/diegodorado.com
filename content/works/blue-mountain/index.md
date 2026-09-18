@@ -12,7 +12,7 @@ An exploratory audiovisual landscape approached through virtual reality technolo
 [Visit the old project site](https://diegodorado.com/blue-mountain/)
 
 ## Watch the trailer
-`video: https://youtu.be/ONDT5KO7gb8`
+<iframe src="https://www.youtube.com/embed/ONDT5KO7gb8" title="" allow="fullscreen" loading="lazy" allowfullscreen frameborder="0"></iframe>
 
 ![alt text](./b.png)
 

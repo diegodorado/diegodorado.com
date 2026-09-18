@@ -44,5 +44,8 @@
     "sass": "^1.79.0",
     "typescript": "^5.9.3"
   },
+  "resolutions": {
+    "vite": "7.3.6"
+  },
   "packageManager": "yarn@4.2.2"
 }

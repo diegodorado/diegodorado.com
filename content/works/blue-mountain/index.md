@@ -14,8 +14,6 @@ An exploratory audiovisual landscape approached through virtual reality technolo
 ## Watch the trailer
 `video: https://youtu.be/ONDT5KO7gb8`
 
----
 ![alt text](./b.png)
----
+
 ![alt text](./f.png)
----

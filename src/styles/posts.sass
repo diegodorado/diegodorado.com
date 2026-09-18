@@ -1,10 +1,18 @@
 
+@use "colors" as *
+@use "mixins" as *
+
 section.posts
+  background: red
   padding: 0
   margin-top: 50px
   flex-flow: row wrap
   display: flex
   justify-content: space-between
+
+  .blurred-picture
+    opacity: 0.2
+    border: 3px solid red
 
   article
     box-sizing: border-box
@@ -15,10 +23,11 @@ section.posts
       display: block
       &:hover
         color: $primary
-        .gatsby-image-wrapper
+        .blurred-picture
           opacity: 0.5
 
-    .gatsby-image-wrapper
+    .blurred-picture
+      opacity: 0.2
       width: 100% !important
       height: 0 !important
       padding-top: 100%

@@ -31,23 +31,29 @@ const labs = yaml.load(readFileSync(labsPath, 'utf8')) as Array<{
   <section class="posts">
     {
       labs.map((lab) => {
-        const desc = lab[`description_${lang}` as 'description_en' | 'description_es']
-        const inner = (
-          <>
-            <LabsImage name={lab.image.split('/').pop() ?? lab.image} alt={lab.title} />
-            <h3>{lab.title}</h3>
-            <p>{desc}</p>
-          </>
-        )
+        const desc =
+          lab[`description_${lang}` as 'description_en' | 'description_es']
+
+        const link = (content: any) =>
+          lab.absolute ? (
+            <a href={lab.link} target="_blank" rel="noopener noreferrer">
+              {content}
+            </a>
+          ) : (
+            <a href={lab.link}>{content}</a>
+          )
+
         return (
           <article>
-            {lab.absolute ? (
-              <a href={lab.link} target="_blank" rel="noopener noreferrer">
-                {inner}
-              </a>
-            ) : (
-              <a href={lab.link}>{inner}</a>
+            {link(
+              <LabsImage
+                name={lab.image.split('/').pop() ?? lab.image}
+                alt={lab.title}
+              />
             )}
+
+            <h3>{link(lab.title)}</h3>
+            <p>{desc}</p>
           </article>
         )
       })

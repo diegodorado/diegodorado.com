@@ -46,9 +46,13 @@ const list = deriveWorks(works)
               height={320}
             />
           ) : null}
-          <h3>{w.entry.data.title}</h3>
-          {w.entry.data.description ? <p>{w.entry.data.description}</p> : null}
         </a>
+        <h3>
+          <a href={localizePath(w.slug, lang)}>
+            {w.entry.data.title}
+          </a>
+        </h3>
+        <p>{w.entry.data.description}</p>
       </article>
     ))}
     {/* 3 empty fillers keep the grid aligned (covers land in slice 3) */}

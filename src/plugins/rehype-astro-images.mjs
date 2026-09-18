@@ -212,6 +212,7 @@ function pictureFor(node, { url, width, height, widths }) {
 }
 
 export default function rehypeAstroImages(options = {}) {
+  console.error('[rehype-astro-images] PLUGIN FACTORY CALLED')
   // `outDir` is honored by the emit-time copy plugin in astro.config.mjs. The
   // rehype plugin itself cannot write straight into `<outDir>/<assetsDir>`:
   // Astro's `emptyDir(outDir)` (static-build.js) runs AFTER content sync and
@@ -223,7 +224,8 @@ export default function rehypeAstroImages(options = {}) {
   const stagingDir = join(process.cwd(), '.astro', 'md-assets', assetsDir)
 
   return async (tree, file) => {
-    if (typeof file.path !== 'string') return // no md path → cannot resolve sources
+    console.error('[rehype-astro-images] PLUGIN RUNNING path=', file?.path)
+    if (!file || typeof file.path !== 'string') return // no md path → cannot resolve sources
     const dir = dirname(file.path)
     const jobs = []
 

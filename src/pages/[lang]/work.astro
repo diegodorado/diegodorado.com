@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets'
+import type { ImageMetadata } from 'astro'
 import Main from '../../layouts/Main.astro'
 import { getCollection } from 'astro:content'
 import { deriveWorks } from '../../lib/routes'
@@ -17,32 +18,48 @@ const list = deriveWorks(works)
     (a, b) =>
       (b.entry.data.date?.getTime() ?? 0) - (a.entry.data.date?.getTime() ?? 0),
   )
+
+const covers = import.meta.glob('/content/works/**/cover.*', {
+  eager: true,
+  import: 'default',
+}) as Record<string, ImageMetadata>
+
+const coverByDir = Object.fromEntries(
+  Object.entries(covers).map(([path, meta]) => {
+    const m = path.match(/\/works\/([^/]+)\/cover\.[^.]+$/)
+    return m ? [m[1], meta] : [path, meta]
+  }),
+)
 ---
 
 <Main pageTitle={t(lang, 'Work')} locale={lang} pathname={`/${lang}/work`}>
   <p class="spacey">{t(lang, 'Intro')}</p>
   <p>{t(lang, 'Recent works')}:</p>
   <section class="posts">
-    {list.map((w) => (
-      <article>
-        <a href={localizePath(w.slug, lang)}>
-          {w.entry.data.cover ? (
-            <Image
-              src={w.entry.data.cover}
-              alt={w.entry.data.description ?? w.entry.data.title}
-              width={320}
-              height={320}
-            />
-          ) : null}
-        </a>
-        <h3>
+    {list.map((w) => {
+      const dir = w.entry.id.replace(/\/[^/]+$/, '')
+      const cover = coverByDir[dir]
+      return (
+        <article>
           <a href={localizePath(w.slug, lang)}>
-            {w.entry.data.title}
+            {cover ? (
+              <Image
+                src={cover}
+                alt={w.entry.data.description ?? w.entry.data.title}
+                width={320}
+                height={320}
+              />
+            ) : null}
           </a>
-        </h3>
-        <p>{w.entry.data.description}</p>
-      </article>
-    ))}
+          <h3>
+            <a href={localizePath(w.slug, lang)}>
+              {w.entry.data.title}
+            </a>
+          </h3>
+          <p>{w.entry.data.description}</p>
+        </article>
+      )
+    })}
     <article></article>
     <article></article>
     <article></article>

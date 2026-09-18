@@ -47,9 +47,9 @@ I had previously tried to reach out for such interaction by other means.
 
 * **Enlarging the font** to its maximum size so that reading the code would be comfortable to the audience.
 
->>> ##### `tidal¬d1 $ stack [  n "<1 2>*8" # s "feel" # lpf (slow 4.4 $ scale 600 4000 $ tri) # lpq 0.051,  jux (# speed (scale (-0.5) 1 $ slow 3.2 $ tri)) $ whenmod 16 14 (const $ s "swsn:1*6" # speed (scale 2 1 $ slow 2 $ sine) # orbit 3 # room 0.2) $ s "[swbd:3 <swsn:3 swsn:3 swsn:1 [swsn:3 swsn:3]>]" # orbit 3 # room 0.2 # dilei 0.25 0.25 0.5,  n (d $ "{0 0 7 0 7}%4"+p) # s "bass8"# gain 0.95,  note (d $ (every 3 (const $ "[0,7](3,8)") $ every 4 (const $ "0*8") $ "0*2") + "[0,2,4,6]"+7+p) # m "[2,3]" # sustain 0.25 # gain 0.7,  note (d $ slow "<1 2>" $ "0 .. 3"+"<0 1 2>"+p) # m "6" # gain 0.9 # sustain 0.5,  s "~"]`
+>>> ##### `d1 $ stack [  n "<1 2>*8" # s "feel" # lpf (slow 4.4 $ scale 600 4000 $ tri) # lpq 0.051,  jux (# speed (scale (-0.5) 1 $ slow 3.2 $ tri)) $ whenmod 16 14 (const $ s "swsn:1*6" # speed (scale 2 1 $ slow 2 $ sine) # orbit 3 # room 0.2) $ s "[swbd:3 <swsn:3 swsn:3 swsn:1 [swsn:3 swsn:3]>]" # orbit 3 # room 0.2 # dilei 0.25 0.25 0.5,  n (d $ "{0 0 7 0 7}%4"+p) # s "bass8"# gain 0.95,  note (d $ (every 3 (const $ "[0,7](3,8)") $ every 4 (const $ "0*8") $ "0*2") + "[0,2,4,6]"+7+p) # m "[2,3]" # sustain 0.25 # gain 0.7,  note (d $ slow "<1 2>" $ "0 .. 3"+"<0 1 2>"+p) # m "6" # gain 0.9 # sustain 0.5,  s "~"]`
 >>> *versus*
->>> # `tidal¬d1 $ sound "[drums, bass*2]"`
+>>> # `d1 $ sound "[drums, bass*2]"`
 
 
 >> *Larger font size invites us to read it.*

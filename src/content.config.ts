@@ -27,7 +27,7 @@ const works = defineCollection({
       // Date objects; coerce keeps that behavior.
       date: z.coerce.date().optional(),
       description: z.string().optional(),
-      cover: image().optional(),
+      cover: z.string().optional(),
       style: z.string().optional(), // cv2612: dashed
     }),
 })

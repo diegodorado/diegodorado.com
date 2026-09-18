@@ -19,10 +19,12 @@ export default defineConfig({
     },
   },
   image: {
-    // Responsive images by default: Astro generates srcset/sizes and applies
-    // default styles for all <Image /> / <Picture /> components and Markdown
-    // images. Per-image override via the `layout` prop when needed.
     layout: 'constrained',
     responsiveStyles: true,
+  },
+  markdown: {
+    shikiConfig: {
+      langAlias: { tidal: 'haskell' },
+    },
   },
 })

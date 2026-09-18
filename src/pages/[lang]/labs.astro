@@ -1,29 +1,14 @@
 ---
-/**
- * /{lang}/labs (labs/index.js port): lab entries grid from labs.yaml.
- */
 import Main from '../../layouts/Main.astro'
 import { localeParams, t } from '../../lib/locale'
 import LabsImage from '../../components/labs/LabsImage.astro'
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
-import yaml from 'js-yaml'
+import { labs } from '../../data/labs'
 
 export function getStaticPaths() {
   return localeParams()
 }
 
 const { lang } = Astro.params
-
-const labsPath = resolve(process.cwd(), 'src/data/labs.yaml')
-const labs = yaml.load(readFileSync(labsPath, 'utf8')) as Array<{
-  image: string
-  title: string
-  description_en: string
-  description_es: string
-  link: string
-  absolute?: boolean
-}>
 ---
 
 <Main pageTitle="labs" locale={lang} pathname={`/${lang}/labs`}>
@@ -34,14 +19,11 @@ const labs = yaml.load(readFileSync(labsPath, 'utf8')) as Array<{
         const desc =
           lab[`description_${lang}` as 'description_en' | 'description_es']
 
-        const link = (content: any) =>
-          lab.absolute ? (
-            <a href={lab.link} target="_blank" rel="noopener noreferrer">
-              {content}
-            </a>
-          ) : (
-            <a href={lab.link}>{content}</a>
-          )
+        const link = (content: any) => (
+          <a href={lab.link} target="_blank" rel="noopener noreferrer">
+            {content}
+          </a>
+        )
 
         return (
           <article>
@@ -58,7 +40,6 @@ const labs = yaml.load(readFileSync(labsPath, 'utf8')) as Array<{
         )
       })
     }
-    {/* empty articles to line up the grid */}
     <article></article>
     <article></article>
     <article></article>

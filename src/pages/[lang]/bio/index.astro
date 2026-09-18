@@ -1,18 +1,7 @@
 ---
-/**
- * /{lang}/bio (bio/index.{en,es}.js port): BioImage (profile, full-width) +
- * static paragraphs, the CV online|pdf links, and the pics gallery
- * (pics.js: 18 pics, FULL_WIDTH 1.5 AR) + `Random pics, by <0>Nicolás
- * Croce</0>.` line. Slice 3 (task 3.3) adds the images: profile full-width
- * without a fixed AR (Gatsby FULL_WIDTH), each pic server-cropped to a 1.5
- * box via explicit width/height (v6 default-crop — the pinned line has no
- * aspectRatio prop, research gate 5.1) at [420,840,1680], all with
- * webp/avif + blurred placeholder. Phase 5.3 hydrates the cyclic-fade island
- * over the same pics (interim: static CSS grid).
- */
+import { Image } from 'astro:assets'
 import Main from '../../../layouts/Main.astro'
 import { localeParams, t, localizePath } from '../../../lib/locale'
-import BlurredPicture from '../../../components/BlurredPicture.astro'
 import CyclicFade from '../../../components/CyclicFade.astro'
 import type { ImageMetadata } from 'astro'
 
@@ -25,18 +14,9 @@ const { lang } = Astro.params
 const randomPicsKey = t(lang, 'Random Pics')
 const randomPicsMatch = randomPicsKey.match(/<0>(.*?)<\/0>/)
 const [randomPicsBefore, randomPicsAfter] = randomPicsKey.split(/<0>.*?<\/0>/)
-// Trans port: the <0>…</0> placeholder becomes the anchor, its inner text
-// the label (e.g. "Nicolás Croce") — never emitted as literal text.
 const croceLabel = randomPicsMatch?.[1] ?? 'Nicolás Croce'
 const isEn = lang === 'en'
 
-// pics.js port: every image under content/assets/pics/ (18), deterministic
-// order by path. Decorative-by-commission photos — Gatsby rendered them
-// without alt; keep alt="" (aria-hidden-equivalent) as the gallery is
-// auxiliary content.
-// `import: 'default'` is REQUIRED: eager import.meta.glob returns module
-// namespace objects ({ default: ImageMetadata }); without it, src.format is
-// undefined and every getImage/Picture call throws UnsupportedImageFormat.
 const pics = (
   Object.entries(
     import.meta.glob('/content/assets/pics/*.{jpg,jpeg,png}', {
@@ -47,7 +27,7 @@ const pics = (
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([, meta]) => meta)
 )
-// bioImage.js port: profile.jpg, full-width, natural AR (Gatsby FULL_WIDTH).
+
 const profile =
   import.meta.glob('/content/assets/profile.jpg', {
     eager: true,
@@ -57,14 +37,7 @@ const profile =
 
 <Main pageTitle="bio" locale={lang} pathname={`/${lang}/bio`}>
   <div class="bio">
-    <BlurredPicture
-      src={profile}
-      alt=""
-      widths={[420, 840, 1680]}
-      sizes="100vw"
-      layout="full-width"
-      class="bio-profile"
-    />
+    <Image src={profile} alt="" layout="full-width" class="bio-profile" />
     <p class="spacey">
       {isEn ? (
         <>
@@ -108,16 +81,7 @@ const profile =
     <CyclicFade speed={1500}>
       {pics.map((pic) => (
         <div class="cyclic-fade-child">
-          <BlurredPicture
-            src={pic}
-            alt=""
-            widths={[420, 840, 1680]}
-            sizes="100vw"
-            layout="full-width"
-            width={1680}
-            height={1120}
-            ratio={1.5}
-          />
+          <Image src={pic} alt="" width={1680} height={1120} />
         </div>
       ))}
     </CyclicFade>

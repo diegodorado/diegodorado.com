@@ -1,10 +1,4 @@
 ---
-/**
- * Main layout (main.js port): header/nav/footer as Astro components with
- * keyed text at build (D6) — no whole-page hydration, no Provider
- * (i18next context is redundant when text is rendered statically).
- * The `.sass` entry comes in here, as in the Gatsby layout.
- */
 import '../styles/app.sass'
 import { site, type Locale } from '../data/site'
 import { DEFAULT_LOCALE } from '../lib/locale'
@@ -12,7 +6,6 @@ import Footer from '../components/Footer.astro'
 import Header from '../components/header/Header.astro'
 
 interface Props {
-  /** Title suffix; "diego dorado - {pageTitle}" (Seo.tsx port). */
   pageTitle?: string
   description?: string
   locale?: Locale
@@ -36,9 +29,6 @@ const hasPageTitle = Boolean(pageTitle)
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {hasPageTitle && <title>{title}</title>}
     <meta name="description" content={description} />
-    {/* Seo.tsx port (siteMetadata): og title/description/type were emitted
-        alongside the above; og:image rendered a broken "…/undefined" URL in
-        Gatsby and is deliberately NOT ported. */}
     <meta name="og:title" content={title} />
     <meta name="og:description" content={description} />
     <meta name="og:type" content="website" />

@@ -1,11 +1,5 @@
 ---
-/**
- * `/` redirect (index.tsx port, D3): empty shell rendered fully (no FOUC)
- * with an inline browser-language redirect to `/{lang}/work`. SSR locale is
- * en — the i18next browser detector fell back to en server-side in Gatsby.
- */
 import Main from '../layouts/Main.astro'
-import { detectLanguage } from '../lib/locale'
 ---
 
 <Main pageTitle="home" locale="en" pathname="/">

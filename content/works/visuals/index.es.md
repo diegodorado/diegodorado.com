@@ -13,21 +13,21 @@ Trabajamos las visuales principalmente en Unity, además de varios softwares de 
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v1.mp4" type="video/mp4" />
+    <source src="/works/visuals/v1.mp4" type="video/mp4" />
   </video>
 </center>
 <br>
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v2.mp4" type="video/mp4" />
+    <source src="/works/visuals/v2.mp4" type="video/mp4" />
   </video>
 </center>
 <br>
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v3.mp4" type="video/mp4" />
+    <source src="/works/visuals/v3.mp4" type="video/mp4" />
   </video>
 </center>
 <br>

@@ -9,8 +9,8 @@ cover: "./cover.jpg"
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./intro.webm" type="video/webm" />
-    <source src="./intro.mp4" type="video/mp4" />
+    <source src="/works/i-o/intro.webm" type="video/webm" />
+    <source src="/works/i-o/intro.mp4" type="video/mp4" />
   </video>
 </center>
 <br>

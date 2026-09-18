@@ -12,21 +12,21 @@ We work the visuals mainly in Unity, plus many 3D model softwares, MaxMSP and op
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v1.mp4" type="video/mp4" />
+    <source src="/works/visuals/v1.mp4" type="video/mp4" />
   </video>
 </center>
 <br>
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v2.mp4" type="video/mp4" />
+    <source src="/works/visuals/v2.mp4" type="video/mp4" />
   </video>
 </center>
 <br>
 
 <center>
   <video autoplay loop muted style="max-width:100%">
-    <source src="./v3.mp4" type="video/mp4" />
+    <source src="/works/visuals/v3.mp4" type="video/mp4" />
   </video>
 </center>
 <br>

@@ -4,7 +4,7 @@ export const labs = [
     title: 'A.D.A. weaves',
     description_en: 'A.D.A. weaving algorithm simulator.',
     description_es: 'Simulador del algoritmo de tejido de A.D.A.',
-    link: 'https://ada.diegodorado.com/',
+    link: '/en/ada',
   },
   {
     image: 'labs/bingo.png',
